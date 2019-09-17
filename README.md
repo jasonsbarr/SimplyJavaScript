@@ -77,13 +77,39 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Reference data types
         -   Array (list)
         -   Object (dictionary)
+            -   Properties
+            -   Dot and bracket notation
+            -   Special built-in objects
+        -   Map (and WeakMap)
+        -   Set (and WeakSet)
     -   Null and undefined
-    -   Comparison and logical operators
-        -   Dynamic types
-        -   Coercion and gotchas
     -   Bindings: constants and variables
         -   Assignment expressions
             -   _const_
             -   _let_
             -   _var_
         -   Everything is a(n object) pointer
+
+2.  Elements of programming: operations and functions
+
+    -   Making your program do things
+    -   Arithmetic operators
+    -   Comparison and logical operators
+        -   Booleans revisited
+        -   Dynamic types
+        -   Coercion and gotchas
+    -   Combining expressions
+    -   Functions: callable values
+    -   Functions as expressions/callables
+    -   Built-in functions
+    -   Defining your own functions
+        -   Functions that take params
+        -   Void functions
+        -   Functions that return a value
+    -   Function evaluation & execution
+    -   Functions as values
+        -   Passing functions
+        -   Functions as object methods
+    -   Pure vs. impure functions
+    -   Functions and scope
+    -   Functions: more to come
