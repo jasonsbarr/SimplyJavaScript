@@ -58,7 +58,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 
 -   What is computer science?
     -   Computation
-    -   Applied mathematics and theoretical CS
+    -   Theoretical CS as applied mathematics
     -   CS as engineering
     -   The 3 big questions
         -   What can we compute?
@@ -104,8 +104,8 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
         -   Symbol
 -   Reference data types (composites)
     -   Value vs. reference data types
-    -   Array (list)
-    -   Object (dictionary)
+    -   Array
+    -   Object
         -   Properties
         -   Dot and bracket notation
         -   Special built-in objects
@@ -209,6 +209,9 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   `throw`
     -   `try`/`catch`/`finally`
 -   Basic testing
+    -   The Assert API
+    -   A simple testing library
+    -   Using a 3rd party testing library
 
 #### 4.  Building applications: program organization and design
 
