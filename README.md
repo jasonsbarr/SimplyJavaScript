@@ -165,7 +165,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 
 9.  Object-oriented programming: prototypes and inheritance
 
-10. Arrays, iterables, and other collections
+10. Arrays, Sets, and other iterable collections
 
 11. Functional programming: abstraction & composition
 
@@ -183,7 +183,6 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Advanced template literals
     -   Arrays (ArrayLists)
     -   Typed Arrays
-    -   Sets and WeakSets
     -   Stacks, queues, and deques
 
 16. Recursive data types
