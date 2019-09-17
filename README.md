@@ -1,6 +1,4 @@
-# Simply JavaScript
-
-## An introduction to modern programming and computer science using the world's most popular programming language
+# Simply JavaScript: an introduction to modern programming and computer science using the world's most popular programming language
 
 While there are literally thousands of beginner JavaScript tutorials out there, most have at least one of the following fatal flaws:
 
