@@ -151,34 +151,38 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Functions and abstraction
         -   When to abstract?
 
-### II. Programming with Functions and other objects
+### II. Programming with Objects and other built-in data types
 
-5.  Higher order functions, callbacks, and functions as objects
-
-6.  Scope, environments, and closures
-
-7.  Working with value data types
+5.  Working with value data types
 
     -   Strings and methods
     -   Numbers, their methods, & the Math object
 
-8.  Creating dictionaries with Objects, Maps, and WeakMaps
+6.  Creating dictionaries with Objects, Maps, and WeakMaps
 
-9.  Object-oriented programming: prototypes and inheritance
+7.  Object-oriented programming: prototypes and inheritance
 
-10. Arrays, Sets, and other iterable collections
+8.  Arrays, Sets, and other iterable collections
 
-11. Functional programming: abstraction & composition
+9.  Building applications: managing data flow with design patterns
 
-12. Composing objects with functions
+### III. Programming with Functions as Objects
 
-13. Building applications: functional object-oriented programming
+10. Higher order functions, callbacks, and functions as objects
 
-### III. Programming with more complex data and managing application state
+11. Scope, environments, and closures
 
-14. Data abstraction
+12. Functional programming: abstraction & composition
 
-15. Sequence data types
+13. Composing objects with functions
+
+14. Building applications: functional object-oriented programming
+
+### IV. Programming with more complex data and managing application state
+
+15. Data abstraction
+
+16. Sequence data types
 
     -   Strings
     -   Advanced template literals
@@ -186,22 +190,22 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Typed Arrays
     -   Stacks, queues, and deques
 
-16. Recursive data types
+17. Recursive data types
 
     -   Heaps
     -   Trees
     -   Linked lists
 
-17. Graphs
+18. Graphs
 
     -   Breadth-first search
     -   Depth-first search
     -   Shortest path algorithms
     -   Minimum spanning tree
 
-18. Searching and sorting algorithms
+19. Searching and sorting algorithms
 
-19. Algorithm design and techniques
+20. Algorithm design and techniques
 
     -   Brute force
     -   Divide and conquer
@@ -209,9 +213,9 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Backtracking
     -   Branch and bound
 
-20. Dynamic programming
+21. Dynamic programming
 
-21. Algorithm complexity and performance
+22. Algorithm complexity and performance
 
     -   Time and space complexity
     -   Recursion vs iteration
@@ -219,14 +223,14 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Orders of growth
     -   Examples: analyzing Fibonacci, factorial, and exponentiation
 
-22. State and mutability
+23. State and mutability
 
     -   Local vs. global
     -   Mutable vs. immutable
     -   Synchronicity vs. asynchronicity
 
-23. Building applications: using data structures and managing state
+24. Building applications: using data structures to manage state
 
-### IV. Programming with asynchronicity and streams
+### V.  Programming with asynchronicity and streams
 
-### V.  Programming with real-world data sets and users
+### VI. Programming with real-world data sets and users
