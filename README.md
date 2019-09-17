@@ -52,6 +52,8 @@ Finally, [_JavaScript for Impatient Programmers_](https://exploringjs.com/impati
 
 Since I'm in the _very_ early stages of developing this series, this is subject to change _radically_ without notice
 
+I. Elements of Programming and JavaScript Language Basics
+
 0.  Getting started
 
     -   What is a program?
@@ -67,6 +69,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
         -   Browser console
         -   Node REPL
     -   "Hello, JavaScript"
+    -   
 
 1.  Elements of programming: data, values, types, & binding
 
@@ -89,6 +92,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
             -   _let_
             -   _var_
         -   Everything is a(n object) pointer
+    -   Code blocks and binding scope
 
 2.  Elements of programming: operations and functions
 
@@ -104,6 +108,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Built-in functions
     -   Defining your own functions
         -   Functions that take params
+        -   Default params
         -   Void functions
         -   Functions that return a value
     -   Function evaluation & execution
