@@ -143,6 +143,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
         -   Tree recursion
         -   Environments and the call stack
     -   Iteration
+    -   Errors and error handling
 
 4.  Building applications: program organization and function design
     -   Design and process
