@@ -54,110 +54,110 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 
 ### I.  Elements of Programming and JavaScript Language Basics
 
-#### 0.  Getting started
+#### 0. Getting started
 
-    -   What is computer science?
-        -   What can we compute?
-        -   How do we compute it?
-        -   What can we do with that?
-    -   Complexity and abstraction
-    -   What is a program?
-        -   Computations and algorithms
-        -   Data and operations
-            -   I/O
-            -   Instructions
-            -   Data and state
-        -   3 parts of an algorithm
-            1.  Set of instructions
-            2.  Flow of control
-            3.  A way to tell when to stop
-    -   Running JavaScript programs interactively
-        -   Browser console
-        -   Node REPL
-    -   "Hello, JavaScript"
+-   What is computer science?
+    -   What can we compute?
+    -   How do we compute it?
+    -   What can we do with that?
+-   Complexity and abstraction
+-   What is a program?
+    -   Computations and algorithms
+    -   Data and operations
+        -   I/O
+        -   Instructions
+        -   Data and state
+    -   3 parts of an algorithm
+        1.  Set of instructions
+        2.  Flow of control
+        3.  A way to tell when to stop
+-   Running JavaScript programs interactively
+    -   Browser console
+    -   Node REPL
+-   "Hello, JavaScript"
 
 #### 1.  Elements of programming: data, values, types, & binding
 
-    -   Value data types
-        -   Number
-        -   String
-        -   Boolean
-    -   Reference data types
-        -   Array (list)
-        -   Object (dictionary)
-            -   Properties
-            -   Dot and bracket notation
-            -   Special built-in objects
-        -   Map (and WeakMap)
-        -   Set (and WeakSet)
-    -   Null and undefined
-    -   Bindings: constants and variables
-        -   Assignment expressions
-            -   _const_
-            -   _let_
-            -   _var_
-            -   Mutable vs. immutable data
-        -   Everything is a(n object) pointer
-    -   Code blocks and binding scope
+-   Value data types
+    -   Number
+    -   String
+    -   Boolean
+-   Reference data types
+    -   Array (list)
+    -   Object (dictionary)
+        -   Properties
+        -   Dot and bracket notation
+        -   Special built-in objects
+    -   Map (and WeakMap)
+    -   Set (and WeakSet)
+-   Null and undefined
+-   Bindings: constants and variables
+    -   Assignment expressions
+        -   _const_
+        -   _let_
+        -   _var_
+        -   Mutable vs. immutable data
+    -   Everything is a(n object) pointer
+-   Code blocks and binding scope
 
 #### 2.  Elements of programming: operations and functions
 
-    -   Expressions
-    -   Arithmetic operators
-    -   Comparison and logical operators
-        -   Booleans revisited
-        -   Dynamic types
-        -   Coercion and gotchas
-    -   Combining expressions
-    -   Functions: callable values
-    -   Functions as expressions/callables
-    -   Built-in functions
-    -   Defining your own functions
-        -   Functions that take params
-        -   Default params
-        -   Void functions
-        -   Functions that return a value
-        -   Pure vs. impure functions
-    -   Function evaluation & the call stack
-    -   Functions as values
-        -   Anonymous functions
-        -   Passing functions as params
-        -   Functions as object methods
-        -   Functions, objects, and `.bind`
+-   Expressions
+-   Arithmetic operators
+-   Comparison and logical operators
+    -   Booleans revisited
+    -   Dynamic types
+    -   Coercion and gotchas
+-   Combining expressions
+-   Functions: callable values
+-   Functions as expressions/callables
+-   Built-in functions
+-   Defining your own functions
+    -   Functions that take params
+    -   Default params
+    -   Void functions
+    -   Functions that return a value
+    -   Pure vs. impure functions
+-   Function evaluation & the call stack
+-   Functions as values
+    -   Anonymous functions
+    -   Passing functions as params
+    -   Functions as object methods
+    -   Functions, objects, and `.bind`
 
 #### 3.  Elements of programming: control flow
 
-    -   Statements
-        -   Compound statements
-        -   Code blocks
-    -   Scope
-        -   Block scope
-        -   Function scope
-        -   Local assignment and operations
-        -   Environments
-    -   Conditionals
-    -   Recursion
-        -   Dividing the problem
-        -   Base cases
-        -   The leap of faith
-        -   Tree recursion
-        -   Environments and the call stack
-    -   Iteration
-    -   Errors and error handling
+-   Statements
+    -   Compound statements
+    -   Code blocks
+-   Scope
+    -   Block scope
+    -   Function scope
+    -   Local assignment and operations
+    -   Environments
+-   Conditionals
+-   Recursion
+    -   Dividing the problem
+    -   Base cases
+    -   The leap of faith
+    -   Tree recursion
+    -   Environments and the call stack
+-   Iteration
+-   Errors and error handling
 
 #### 4.  Building applications: program organization and function design
 
-    -   Design and process
-    -   Declarative vs. imperative programming
-    -   Functions and abstraction
-        -   When to abstract?
+-   Design and process
+-   Declarative vs. imperative programming
+-   Functions and abstraction
+    -   When to abstract?
 
 ### II. Programming with Objects and other built-in data types
 
 #### 5.  Working with value data types
 
-    -   Strings and methods
-    -   Numbers, their methods, & the Math object
+-   Strings and methods
+-   Numbers, their methods, & the Math object
 
 #### 6.  Creating dictionaries with Objects, Maps, and WeakMaps
 
@@ -183,45 +183,45 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 
 #### 15. Data structures and abstraction
 
-    -   Strings
-    -   Advanced template literals
-    -   Stacks, queues, and deques
-    -   Heaps
-    -   Trees
-    -   Linked lists
+-   Strings
+-   Advanced template literals
+-   Stacks, queues, and deques
+-   Heaps
+-   Trees
+-   Linked lists
 
 #### 16. Searching and sorting algorithms
 
 #### 17. Graphs and graph algorithms
 
-    -   Breadth-first search
-    -   Depth-first search
-    -   Shortest path algorithms
-    -   Minimum spanning tree
+-   Breadth-first search
+-   Depth-first search
+-   Shortest path algorithms
+-   Minimum spanning tree
 
 #### 18. Algorithm design and techniques
 
-    -   Brute force
-    -   Divide and conquer
-    -   Greedy
-    -   Backtracking
-    -   Branch and bound
+-   Brute force
+-   Divide and conquer
+-   Greedy
+-   Backtracking
+-   Branch and bound
 
 #### 19. Dynamic programming
 
 #### 20. Algorithm complexity and performance
 
-    -   Time and space complexity
-    -   Recursion vs iteration
-    -   Memoization
-    -   Orders of growth
-    -   Examples: analyzing Fibonacci, factorial, and exponentiation
+-   Time and space complexity
+-   Recursion vs iteration
+-   Memoization
+-   Orders of growth
+-   Examples: analyzing Fibonacci, factorial, and exponentiation
 
 #### 21. State and mutability
 
-    -   Local vs. global
-    -   Mutable vs. immutable
-    -   Synchronicity vs. asynchronicity
+-   Local vs. global
+-   Mutable vs. immutable
+-   Synchronicity vs. asynchronicity
 
 #### 22. Building applications: using data structures to manage state
 
