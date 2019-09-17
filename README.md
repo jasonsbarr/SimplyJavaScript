@@ -194,6 +194,11 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 
 17. Graphs
 
+    -   Breadth-first search
+    -   Depth-first search
+    -   Shortest path algorithms
+    -   Minimum spanning tree
+
 18. Searching and sorting algorithms
 
 19. Algorithm design and techniques
