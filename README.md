@@ -71,7 +71,6 @@ I. Elements of Programming and JavaScript Language Basics
             1.  Set of instructions
             2.  Flow of control
             3.  A way to tell when to stop
-        -   Expressions
     -   Running JavaScript programs interactively
         -   Browser console
         -   Node REPL
@@ -102,7 +101,7 @@ I. Elements of Programming and JavaScript Language Basics
 
 2.  Elements of programming: operations and functions
 
-    -   Making your program do things
+    -   Expressions
     -   Arithmetic operators
     -   Comparison and logical operators
         -   Booleans revisited
@@ -118,10 +117,11 @@ I. Elements of Programming and JavaScript Language Basics
         -   Void functions
         -   Functions that return a value
         -   Pure vs. impure functions
-    -   Function evaluation & execution
+    -   Function evaluation & the call stack
     -   Functions as values
         -   Passing functions
         -   Functions as object methods
+        -   Functions, objects, and `.bind`
     -   Functions: more to come
 
 3.  Elements of programming: control flow
@@ -136,4 +136,7 @@ I. Elements of Programming and JavaScript Language Basics
         -   Environments
     -   Conditionals
     -   Recursion
+        -   Dividing the problem
+        -   Base cases
+        -   The leap of faith
     -   Iteration
