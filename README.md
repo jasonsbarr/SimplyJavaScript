@@ -52,14 +52,14 @@ Finally, [_JavaScript for Impatient Programmers_](https://exploringjs.com/impati
 
 Since I'm in the _very_ early stages of developing this series, this is subject to change _radically_ without notice
 
-### I.  Elements of Programming and JavaScript Language Basics
+### I.  Elements of programming and JavaScript language basics
 
-#### 0. Getting started
+#### 0. Getting started with programming and computer science
 
 -   What is computer science?
     -   What can we compute?
     -   How do we compute it?
-    -   What can we do with that?
+    -   What can we do with the result?
 -   Complexity and abstraction
 -   What is a program?
     -   Computations and algorithms
@@ -70,19 +70,23 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   3 parts of an algorithm
         1.  Set of instructions
         2.  Flow of control
-        3.  A way to tell when to stop
+        3.  Terminal condition
 -   Running JavaScript programs interactively
     -   Browser console
     -   Node REPL
--   "Hello, JavaScript"
+-   The first program: "Hello, JavaScript"
 
 #### 1.  Elements of programming: data, values, types, & binding
 
 -   Value data types
-    -   Number
-    -   String
-    -   Boolean
+    -   Values as expressions
+    -   Using object properties and methods
+        -   Number
+        -   String
+        -   Boolean
+        -   Symbol
 -   Reference data types
+    -   Value vs. reference data types
     -   Array (list)
     -   Object (dictionary)
         -   Properties
@@ -93,113 +97,180 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 -   Null and undefined
 -   Bindings: constants and variables
     -   Assignment expressions
+        -   Declaration vs. assignment
         -   _const_
         -   _let_
         -   _var_
-        -   Mutable vs. immutable data
+        -   Evaluation order from the inside out
+        -   Destructuring and spreading
     -   Everything is a(n object) pointer
--   Code blocks and binding scope
+    -   Garbage collection
 
 #### 2.  Elements of programming: operations and functions
 
--   Expressions
+-   Operations and expressions
 -   Arithmetic operators
 -   Comparison and logical operators
     -   Booleans revisited
-    -   Dynamic types
-    -   Coercion and gotchas
+    -   Dynamic types and coercion
+    -   Type coercion pitfalls
+-   Operators and precedence
 -   Combining expressions
--   Functions: callable values
--   Functions as expressions/callables
+-   Functions are callable values
+-   Function calls as expressions
 -   Built-in functions
 -   Defining your own functions
-    -   Functions that take params
-    -   Default params
+    -   Function declarations vs. function expressions
+    -   Arrow functions
+    -   Functions that take parameters
+    -   Parameters vs. arguments
+    -   Default parameters
     -   Void functions
     -   Functions that return a value
     -   Pure vs. impure functions
+    -   Function signatures, arity, and variadic functions
+    -   Docblocks and function definitions
 -   Function evaluation & the call stack
 -   Functions as values
     -   Anonymous functions
-    -   Passing functions as params
+    -   Functions as parameters and return objects
     -   Functions as object methods
-    -   Functions, objects, and `.bind`
+    -   Functions, objects, and `this`
+        -   Rules for binding `this`
+        -   Arrow functions and `this`
+        -   `call` and `apply`
+        -   `bind`
+    -   Callback functions and asynchronicity
 
 #### 3.  Elements of programming: control flow
 
 -   Statements
-    -   Compound statements
+    -   Statements vs. expressions
     -   Code blocks
--   Scope
+-   Scope, naming, and environments
+    -   Global scope
     -   Block scope
     -   Function scope
+        -   Nested functions
+        -   IIFEs
     -   Local assignment and operations
-    -   Environments
--   Conditionals
+    -   Lexical environments and stack frames
+    -   Hoisting
+-   Running time and control structures
+-   Conditionals and branching
+    -   `if`, `else if`, `else`
+    -   `switch`
+    -   The conditional (or ternary) operator
+    -   Short-circuit evaluation
+    -   Branching and function returns
+        -   Single point of return
+        -   Early returns and guard clauses
 -   Recursion
-    -   Dividing the problem
-    -   Base cases
-    -   The leap of faith
+    -   Linear recursion
+        -   Dividing the problem
+        -   Base cases and recursive calls
+        -   The leap of faith
+        -   Tail call recursion
     -   Tree recursion
-    -   Environments and the call stack
+    -   Stack frames and state
+    -   Recursive patterns
+        -   Every (map)
+        -   Keep (filter)
+        -   Accumulate (reduce)
+    -   Advanced recursion examples
+    -   Pitfalls
 -   Iteration
+    -   `while`
+    -   `for`
+    -   `break` and `continue`
+    -   `for...in`
+    -   `for...of`
+    -   `.forEach()`
+    -   Iteration vs. recursion
+        -   State
+        -   Memory usage
+        -   Performance
 -   Errors and error handling
+    -   `throw`
+    -   `try`/`catch`/`finally`
 
-#### 4.  Building applications: program organization and function design
+#### 4.  Building applications: program organization and design
 
 -   Design and process
 -   Declarative vs. imperative programming
 -   Functions and abstraction
-    -   When to abstract?
+    -   Extracting repeated code
+    -   Decomposition
+    -   Wishful thinking
+
+**Project**
 
 ### II. Programming with Objects and other built-in data types
 
-#### 5.  Working with value data types
+#### 5.  Advanced techniques with Strings and Symbols
 
--   Strings and methods
--   Numbers, their methods, & the Math object
+-   Strings
+-   Template literals and tagged templates
+-   Symbols
 
-#### 6.  Creating dictionaries with Objects, Maps, and WeakMaps
+#### 6. Creating dictionaries with Objects, Maps, and WeakMaps
 
-#### 7.  Object-oriented programming: prototypes and inheritance
+#### 7. Prototypes and inheritance, with and without `class`es
 
-#### 8.  Arrays, Sets, and other iterable collections
+#### 8. Arrays, Sets, and other iterable collections
 
-#### 9.  Building applications: managing data flow with design patterns
+#### 9. Metaprogramming with Symbols, Reflect, and Proxies
 
-### III. Programming with Functions as Objects
+#### 10.  Building applications: managing data flow with object-oriented design patterns
 
-#### 10. Higher order functions, callbacks, and functions as objects
+-   Classical design patterns
+-   Messaging patterns
+-   Modules, old and new
+-   Application-level design patterns
+-   Microservices
+-   Functional and reactive patterns
 
-#### 11. Scope, environments, and closures
+**Project**
 
-#### 12. Functional programming: abstraction & composition
+### III. Programming with Functions
 
-#### 13. Composing objects with functions
+#### 11. Higher order functions
 
-#### 14. Building applications: functional object-oriented programming
+#### 12. Scope, environments, and closures
+
+#### 13. Purity of function is to do one thing
+
+#### 14. Functional abstraction and composition
+
+#### 15. Containers and monads and functors, oh my!
+
+#### 16. Functional control flow without ifs or loops
+
+#### 16. Composing objects with functions
+
+#### 17. Building applications: functional object-oriented programming
+
+**Project**
 
 ### IV. Programming with more complex data and managing application state
 
-#### 15. Data structures and abstraction
+#### 18. Data structures and abstraction
 
--   Strings
--   Advanced template literals
 -   Stacks, queues, and deques
 -   Heaps
 -   Trees
 -   Linked lists
 
-#### 16. Searching and sorting algorithms
+#### 19. Searching and sorting algorithms
 
-#### 17. Graphs and graph algorithms
+#### 20. Graphs and graph algorithms
 
 -   Breadth-first search
 -   Depth-first search
 -   Shortest path algorithms
 -   Minimum spanning tree
 
-#### 18. Algorithm design and techniques
+#### 21. Algorithm design and techniques
 
 -   Brute force
 -   Divide and conquer
@@ -207,9 +278,9 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 -   Backtracking
 -   Branch and bound
 
-#### 19. Dynamic programming
+#### 22. Dynamic programming
 
-#### 20. Algorithm complexity and performance
+#### 23. Algorithm complexity and performance
 
 -   Time and space complexity
 -   Recursion vs iteration
@@ -217,14 +288,30 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 -   Orders of growth
 -   Examples: analyzing Fibonacci, factorial, and exponentiation
 
-#### 21. State and mutability
+#### 24. Events and state
 
 -   Local vs. global
 -   Mutable vs. immutable
 -   Synchronicity vs. asynchronicity
+-   Events and messaging
+-   The finite state machine
 
-#### 22. Building applications: using data structures to manage state
+#### 25. Building applications: using data structures to manage state
+
+**Project**
 
 ### V.  Programming with asynchronicity and streams
 
+**Project**
+
 ### VI. Programming with real-world data sets and users
+
+**Project**
+
+### VII. The kitchen sink
+
+#### A. The Date object
+
+#### B. Regular expressions
+
+#### C. Binary data and bitwise operations
