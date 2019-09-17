@@ -54,7 +54,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 
 ### I.  Elements of Programming and JavaScript Language Basics
 
-0.  Getting started
+#### 0.  Getting started
 
     -   What is computer science?
         -   What can we compute?
@@ -76,7 +76,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
         -   Node REPL
     -   "Hello, JavaScript"
 
-1.  Elements of programming: data, values, types, & binding
+#### 1.  Elements of programming: data, values, types, & binding
 
     -   Value data types
         -   Number
@@ -100,7 +100,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
         -   Everything is a(n object) pointer
     -   Code blocks and binding scope
 
-2.  Elements of programming: operations and functions
+#### 2.  Elements of programming: operations and functions
 
     -   Expressions
     -   Arithmetic operators
@@ -125,7 +125,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
         -   Functions as object methods
         -   Functions, objects, and `.bind`
 
-3.  Elements of programming: control flow
+#### 3.  Elements of programming: control flow
 
     -   Statements
         -   Compound statements
@@ -145,7 +145,8 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Iteration
     -   Errors and error handling
 
-4.  Building applications: program organization and function design
+#### 4.  Building applications: program organization and function design
+
     -   Design and process
     -   Declarative vs. imperative programming
     -   Functions and abstraction
@@ -153,59 +154,52 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 
 ### II. Programming with Objects and other built-in data types
 
-5.  Working with value data types
+#### 5.  Working with value data types
 
     -   Strings and methods
     -   Numbers, their methods, & the Math object
 
-6.  Creating dictionaries with Objects, Maps, and WeakMaps
+#### 6.  Creating dictionaries with Objects, Maps, and WeakMaps
 
-7.  Object-oriented programming: prototypes and inheritance
+#### 7.  Object-oriented programming: prototypes and inheritance
 
-8.  Arrays, Sets, and other iterable collections
+#### 8.  Arrays, Sets, and other iterable collections
 
-9.  Building applications: managing data flow with design patterns
+#### 9.  Building applications: managing data flow with design patterns
 
 ### III. Programming with Functions as Objects
 
-10. Higher order functions, callbacks, and functions as objects
+#### 10. Higher order functions, callbacks, and functions as objects
 
-11. Scope, environments, and closures
+#### 11. Scope, environments, and closures
 
-12. Functional programming: abstraction & composition
+#### 12. Functional programming: abstraction & composition
 
-13. Composing objects with functions
+#### 13. Composing objects with functions
 
-14. Building applications: functional object-oriented programming
+#### 14. Building applications: functional object-oriented programming
 
 ### IV. Programming with more complex data and managing application state
 
-15. Data abstraction
-
-16. Sequence data types
+#### 15. Data structures and abstraction
 
     -   Strings
     -   Advanced template literals
-    -   Arrays (ArrayLists)
-    -   Typed Arrays
     -   Stacks, queues, and deques
-
-17. Recursive data types
-
     -   Heaps
     -   Trees
     -   Linked lists
 
-18. Graphs
+#### 16. Searching and sorting algorithms
+
+#### 17. Graphs and graph algorithms
 
     -   Breadth-first search
     -   Depth-first search
     -   Shortest path algorithms
     -   Minimum spanning tree
 
-19. Searching and sorting algorithms
-
-20. Algorithm design and techniques
+#### 18. Algorithm design and techniques
 
     -   Brute force
     -   Divide and conquer
@@ -213,9 +207,9 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Backtracking
     -   Branch and bound
 
-21. Dynamic programming
+#### 19. Dynamic programming
 
-22. Algorithm complexity and performance
+#### 20. Algorithm complexity and performance
 
     -   Time and space complexity
     -   Recursion vs iteration
@@ -223,13 +217,13 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Orders of growth
     -   Examples: analyzing Fibonacci, factorial, and exponentiation
 
-23. State and mutability
+#### 21. State and mutability
 
     -   Local vs. global
     -   Mutable vs. immutable
     -   Synchronicity vs. asynchronicity
 
-24. Building applications: using data structures to manage state
+#### 22. Building applications: using data structures to manage state
 
 ### V.  Programming with asynchronicity and streams
 
