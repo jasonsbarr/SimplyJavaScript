@@ -52,7 +52,7 @@ Finally, [_JavaScript for Impatient Programmers_](https://exploringjs.com/impati
 
 Since I'm in the _very_ early stages of developing this series, this is subject to change _radically_ without notice
 
-I. Elements of Programming and JavaScript Language Basics
+### I.  Elements of Programming and JavaScript Language Basics
 
 0.  Getting started
 
@@ -78,7 +78,7 @@ I. Elements of Programming and JavaScript Language Basics
 
 1.  Elements of programming: data, values, types, & binding
 
-    -   Simple/value data types
+    -   Value data types
         -   Number
         -   String
         -   Boolean
@@ -96,6 +96,7 @@ I. Elements of Programming and JavaScript Language Basics
             -   _const_
             -   _let_
             -   _var_
+            -   Mutable vs. immutable data
         -   Everything is a(n object) pointer
     -   Code blocks and binding scope
 
@@ -119,10 +120,10 @@ I. Elements of Programming and JavaScript Language Basics
         -   Pure vs. impure functions
     -   Function evaluation & the call stack
     -   Functions as values
-        -   Passing functions
+        -   Anonymous functions
+        -   Passing functions as params
         -   Functions as object methods
         -   Functions, objects, and `.bind`
-    -   Functions: more to come
 
 3.  Elements of programming: control flow
 
@@ -139,4 +140,88 @@ I. Elements of Programming and JavaScript Language Basics
         -   Dividing the problem
         -   Base cases
         -   The leap of faith
+        -   Tree recursion
+        -   Environments and the call stack
     -   Iteration
+
+4.  Building applications: program organization and function design
+    -   Design and process
+    -   Declarative vs. imperative programming
+    -   Functions and abstraction
+        -   When to abstract?
+
+### II. Programming with Functions and other objects
+
+5.  Higher order functions, callbacks, and functions as objects
+
+6.  Scope, environments, and closures
+
+7.  Working with value data types
+
+    -   Strings and methods
+    -   Numbers, their methods, & the Math object
+
+8.  Creating dictionaries with Objects, Maps, and WeakMaps
+
+9.  Object-oriented programming: prototypes and inheritance
+
+10. Arrays, iterables, and other collections
+
+11. Functional programming: abstraction & composition
+
+12. Composing objects with functions
+
+13. Building applications: functional object-oriented programming
+
+### III. Programming with more complex data and managing application state
+
+14. Data abstraction
+
+15. Sequence data types
+
+    -   Strings
+    -   Advanced template literals
+    -   Arrays (ArrayLists)
+    -   Typed Arrays
+    -   Sets and WeakSets
+    -   Stacks, queues, and deques
+
+16. Recursive data types
+
+    -   Heaps
+    -   Trees
+    -   Linked lists
+
+17. Graphs
+
+18. Searching and sorting algorithms
+
+19. Algorithm design and techniques
+
+    -   Brute force
+    -   Divide and conquer
+    -   Greedy
+    -   Backtracking
+    -   Branch and bound
+
+20. Dynamic programming
+
+21. Algorithm complexity and performance
+
+    -   Time and space complexity
+    -   Recursion vs iteration
+    -   Memoization
+    -   Orders of growth
+    -   Examples: analyzing Fibonacci, factorial, and exponentiation
+
+22. State and mutability
+
+    -   Local vs. global
+    -   Mutable vs. immutable
+    -   Synchronicity vs. asynchronicity
+
+23. Building applications: using data structures and managing state
+
+### IV. Programming with asynchronicity and streams
+
+### V.  Programming with real-world data sets and users
