@@ -54,12 +54,16 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 
 ### I.  Elements of programming and JavaScript language basics
 
-#### 0. Getting started with programming and computer science
+#### 0. Getting started with computer science and programming
 
 -   What is computer science?
-    -   What can we compute?
-    -   How do we compute it?
-    -   What can we do with the result?
+    -   Computation
+    -   Applied mathematics and theoretical CS
+    -   CS as engineering
+    -   The 3 big questions
+        -   What can we compute?
+        -   How do we compute it?
+        -   What can we do with the result?
 -   Complexity and abstraction
 -   What is a program?
     -   Computations and algorithms
@@ -71,21 +75,34 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
         1.  Set of instructions
         2.  Flow of control
         3.  Terminal condition
+-   Programs and programming languages
+    -   Compiled vs. interpreted
+    -   Dynamic vs. static data types
+    -   Compile time and runtime
+-   Programming languages are languages
+    -   Primitives
+    -   Syntax
+    -   Static semantics
+    -   Semantics
+-   Overview of JavaScript's basic syntax
+    -   Identifiers
+    -   Statements and expressions
+    -   Strict mode
 -   Running JavaScript programs interactively
     -   Browser console
     -   Node REPL
 -   The first program: "Hello, JavaScript"
 
-#### 1.  Elements of programming: data, values, types, & binding
+#### 1.  Elements of programming: data types and binding values
 
--   Value data types
+-   Value data types (primitives)
     -   Values as expressions
     -   Using object properties and methods
         -   Number
         -   String
         -   Boolean
         -   Symbol
--   Reference data types
+-   Reference data types (composites)
     -   Value vs. reference data types
     -   Array (list)
     -   Object (dictionary)
@@ -142,11 +159,9 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
         -   `bind`
     -   Callback functions and asynchronicity
 
-#### 3.  Elements of programming: control flow
+#### 3.  Elements of programming: environments and control flow
 
--   Statements
-    -   Statements vs. expressions
-    -   Code blocks
+-   Code blocks
 -   Scope, naming, and environments
     -   Global scope
     -   Block scope
@@ -193,6 +208,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 -   Errors and error handling
     -   `throw`
     -   `try`/`catch`/`finally`
+-   Basic testing
 
 #### 4.  Building applications: program organization and design
 
@@ -314,4 +330,4 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 
 #### B. Regular expressions
 
-#### C. Binary data and bitwise operations
+#### C. Typed Arrays
