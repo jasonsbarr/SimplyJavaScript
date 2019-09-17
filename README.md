@@ -56,20 +56,26 @@ I. Elements of Programming and JavaScript Language Basics
 
 0.  Getting started
 
+    -   What is computer science?
+        -   What can we compute?
+        -   How do we compute it?
+        -   What can we do with that?
+    -   Complexity and abstraction
     -   What is a program?
-        -   Instructions: statements & expressions
         -   Computations and algorithms
+        -   Data and operations
+            -   I/O
+            -   Instructions
+            -   Data and state
         -   3 parts of an algorithm
             1.  Set of instructions
             2.  Flow of control
             3.  A way to tell when to stop
-        -   Data, I/O, operations
-        -   Functions
+        -   Expressions
     -   Running JavaScript programs interactively
         -   Browser console
         -   Node REPL
     -   "Hello, JavaScript"
-    -   
 
 1.  Elements of programming: data, values, types, & binding
 
@@ -111,10 +117,23 @@ I. Elements of Programming and JavaScript Language Basics
         -   Default params
         -   Void functions
         -   Functions that return a value
+        -   Pure vs. impure functions
     -   Function evaluation & execution
     -   Functions as values
         -   Passing functions
         -   Functions as object methods
-    -   Pure vs. impure functions
-    -   Functions and scope
     -   Functions: more to come
+
+3.  Elements of programming: control flow
+
+    -   Statements
+        -   Compound statements
+        -   Code blocks
+    -   Scope
+        -   Block scope
+        -   Function scope
+        -   Local assignment and operations
+        -   Environments
+    -   Conditionals
+    -   Recursion
+    -   Iteration
