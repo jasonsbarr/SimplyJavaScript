@@ -8,7 +8,7 @@ While there are literally thousands of beginner JavaScript tutorials out there, 
 
 My goal here is to create a series of tutorials that avoids these pitfalls and helps students develop a strong foundation in computing, program design, and interacting with machines from a programmer's point of view.
 
-### Programming, not web development
+## Programming, not web development
 
 The purpose of this series is to teach students how to write well-structured, efficient programs using the JavaScript language.
 
@@ -22,7 +22,7 @@ There's nothing wrong with web development tutorials as such, but it's crucial t
 
 Given that web applications are the most common use for JavaScript, you will also learn a little about how to apply your programming knowledge to both client- and server-side web development, but it's not the main focus.
 
-### Computer science fundamentals, with modern programming techniques
+## Computer science fundamentals, with modern programming techniques
 
 After working through these tutorials you will have a solid understanding of basic computer science: how computers work, how machines parse and execute programs, how to organize and process data, and how to evaluate and improve program efficiency.
 
@@ -32,7 +32,7 @@ When you understand these things you'll have a massive advantage over others who
 
 You'll also be able to apply these fundamentals to any other programming language or framework.
 
-### Sources of inspiration
+## Sources of inspiration
 
 Much of what I write here is influenced by Abelson, Sussman, and Sussman's seminal [_Structure and Interpretation of Computer Programs_](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html), although it is certainly not an attempt to translate _SICP_ into JavaScript.
 
@@ -48,7 +48,7 @@ The [Modern JavaScript Tutorial](https://javascript.info) stands out as a stella
 
 Finally, [_JavaScript for Impatient Programmers_](https://exploringjs.com/impatient-js/) by Dr. Axel Rauschmayer is an outstanding introduction to modern JavaScript for newcomers who already know how to program in another language.
 
-### Outline/Table of Contents
+## Outline/Table of Contents
 
 Since I'm in the _very_ early stages of developing this series, this is subject to change _radically_ without notice
 
