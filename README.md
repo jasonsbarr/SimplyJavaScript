@@ -59,7 +59,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 -   What is computer science?
     -   Computation
     -   Theoretical CS as applied mathematics
-    -   CS as engineering
+    -   Applications of CS
     -   The 3 big questions
         -   What can we compute?
         -   How do we compute it?
@@ -87,6 +87,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 -   Overview of JavaScript's basic syntax
     -   Identifiers
     -   Statements and expressions
+    -   Syntactic ambiguities
     -   Strict mode
 -   Running JavaScript programs interactively
     -   Browser console
@@ -98,8 +99,8 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 -   Value data types (primitives)
     -   Values as expressions
     -   Using object properties and methods
-        -   Number
         -   String
+        -   Numbers and Math
         -   Boolean
         -   Symbol
 -   Reference data types (composites)
@@ -108,7 +109,8 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Object
         -   Properties
         -   Dot and bracket notation
-        -   Special built-in objects
+        -   JSON
+        -   Dates
     -   Map (and WeakMap)
     -   Set (and WeakSet)
 -   Null and undefined
@@ -126,9 +128,10 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 #### 2.  Elements of programming: operations and functions
 
 -   Operations and expressions
--   Arithmetic operators
+-   Unary and binary operators
 -   Comparison and logical operators
-    -   Booleans revisited
+    -   Boolean algebra
+    -   Truthiness and falsiness
     -   Dynamic types and coercion
     -   Type coercion pitfalls
 -   Operators and precedence
@@ -157,7 +160,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
         -   Arrow functions and `this`
         -   `call` and `apply`
         -   `bind`
-    -   Callback functions and asynchronicity
+    -   Callback functions
 
 #### 3.  Elements of programming: environments and control flow
 
@@ -201,6 +204,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   `for...in`
     -   `for...of`
     -   `.forEach()`
+    -   Exhaustive enumeration algorithms
     -   Iteration vs. recursion
         -   State
         -   Memory usage
@@ -210,7 +214,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   `try`/`catch`/`finally`
 -   Basic testing
     -   The Assert API
-    -   A simple testing library
+    -   Build a simple testing library
     -   Using a 3rd party testing library
 
 #### 4.  Building applications: program organization and design
@@ -218,29 +222,89 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 -   Design and process
 -   Declarative vs. imperative programming
 -   Functions and abstraction
-    -   Extracting repeated code
     -   Decomposition
-    -   Wishful thinking
+    -   Extracting repeated code
+    -   "Wishful thinking"
+-   Writing clear, readable code
 
 **Project**
 
 ### II. Programming with Objects and other built-in data types
 
-#### 5.  Advanced techniques with Strings and Symbols
+#### 5.  Advanced String techniques
 
--   Strings
+-   Working with Unicode and other advanced String shenanigans
 -   Template literals and tagged templates
--   Symbols
+-   Regular Expressions
 
-#### 6. Creating dictionaries with Objects, Maps, and WeakMaps
+#### 6. Keyed data structures (dictionaries) with Objects, Maps, and WeakMaps
 
-#### 7. Prototypes and inheritance, with and without `class`es
+-   Advanced object creation
+    -   Objects without prototypes
+    -   Using Symbols as keys
+    -   Setting property attributes
+    -   Freezing Objects
+    -   Standard methods
+-   Mutating Objects
+-   Working with immutable Objects
+-   Key/value data structures
+    -   Associative array
+    -   Dictionary
+    -   Hash table
+-   Using Objects as dictionaries
+-   Better dictionaries with Maps
+-   Maps vs. WeakMaps
+-   Structs
+
+#### 7. Object prototypes and inheritance, with and without `class`es
+
+-   Prototypes and first-class Objects
+-   The `__proto__` property
+-   Inheritance and the prototype chain
+-   Constructor functions and the `new` keyword
+-   Emulating classes and subclasses with prototypal inheritance
+-   Encapsulation and private data
+-   The ES5 module pattern
+-   ES6 Classes and inheritance
+    -   Creating subclasses with `extend` and `super()`
+    -   Extend Classes with non-Class Objects
+    -   Classes and strict mode
+    -   Converting constructors to Classes
+    -   Static methods
+    -   Private data?
+    -   Field declaration syntax (experimental)
+    -   Classes and `this`
+    -   Classes and hoisting
+-   Classes as special functions
+-   Class expressions
+-   Class mixins
+-   Using Symbols to simulate interfaces
+-   Decorators, monkey patching, and duck typing
+-   Problems with inheritance, `new`, and ES6 Classes
 
 #### 8. Arrays, Sets, and other iterable collections
 
+-   Iteration, iterators, and iterables
+-   Arrays as lists
+-   Searching and sorting Arrays
+-   Higher order Array methods
+-   Mutable vs. immutable Arrays
+-   Typed Arrays and binary data
+-   Sets and WeakSets
+-   Iterating with Objects, Maps, and WeakMaps
+-   HTML collections in the browser
+-   Making plain Objects iterable
+-   Building a jQuery-like HTML Element collection
+-   Multidimensional Arrays
+-   [Symbol.iterator] and iterator methods
+-   Building a Matrix data structure with multidimensional Arrays and [Symbol.iterator]
+-   Tool functions and combinators
+-   Infinite iterables
+-   Building a Python-like Tuple data structure
+
 #### 9. Metaprogramming with Symbols, Reflect, and Proxies
 
-#### 10.  Building applications: managing data flow with object-oriented design patterns
+#### 10.  Building applications: organizing code and managing data flow with object-oriented design patterns
 
 -   Classical design patterns
 -   Messaging patterns
@@ -323,14 +387,20 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 
 **Project**
 
-### VI. Programming with real-world data sets and users
+### VI. Programming the browser
 
 **Project**
 
-### VII. The kitchen sink
+### VII. Programming on the server
 
-#### A. The Date object
+**Project**
 
-#### B. Regular expressions
+### VIII. Building a full-stack application with real world data and users
 
-#### C. Typed Arrays
+### IX. The kitchen sink
+
+-   A. Problem solving methodology
+-   B. Code formatting and style guides
+-   C. Software engineering paradigms
+    -   Waterfall
+    -   Agile
