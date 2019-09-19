@@ -57,7 +57,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 #### 0. Getting started with computer science and programming
 
 -   What is computer science?
-    -   Computation
+    -   Computation and computing
     -   Theoretical CS as applied mathematics
     -   Applications of CS
     -   The 3 big questions
@@ -65,25 +65,35 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
         -   How do we compute it?
         -   What can we do with the result?
 -   Complexity and abstraction
+-   What is a computer?
+    -   Human computers and computing devices
+    -   From analog to digital computing
+    -   Fixed program vs stored program
+    -   Turing completeness
+    -   Code as both instructions and data (Von Neumann architecture)
 -   What is a program?
     -   Computations and algorithms
-    -   Data and operations
-        -   I/O
-        -   Instructions
-        -   Data and state
+    -   Data, operations, and state
     -   3 parts of an algorithm
         1.  Set of instructions
         2.  Flow of control
         3.  Terminal condition
--   Programs and programming languages
-    -   Compiled vs. interpreted
-    -   Dynamic vs. static data types
-    -   Compile time and runtime
 -   Programming languages are languages
     -   Primitives
     -   Syntax
     -   Static semantics
     -   Semantics
+-   Programs and programming languages
+    -   Ada Lovelace programs the Analytical Engine
+    -   Low level and high level languages
+        -   Machine code and assembly
+        -   Machine-independent languages and compiling (Grace Hopper and A-0)
+        -   The first high-level languages: FORTRAN, LISP, and COBOL
+        -   Modern programming languages
+    -   Compiled vs. interpreted
+    -   Dynamic vs. static data types
+    -   Compile time and runtime
+-   A _very brief_ history of JavaScript
 -   Overview of JavaScript's basic syntax
     -   Identifiers
     -   Statements and expressions
@@ -92,7 +102,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 -   Running JavaScript programs interactively
     -   Browser console
     -   Node REPL
--   The first program: "Hello, JavaScript"
+-   Your first program: "Hello, JavaScript"
 
 #### 1.  Elements of programming: data types and binding values
 
@@ -101,6 +111,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Using object properties and methods
         -   String
         -   Numbers and Math
+        -   BigInt
         -   Boolean
         -   Symbol
 -   Reference data types (composites)
@@ -134,6 +145,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Truthiness and falsiness
     -   Dynamic types and coercion
     -   Type coercion pitfalls
+-   Bitwise operators
 -   Operators and precedence
 -   Combining expressions
 -   Functions are callable values
@@ -148,21 +160,21 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Void functions
     -   Functions that return a value
     -   Pure vs. impure functions
-    -   Function signatures, arity, and variadic functions
+    -   Function signatures, arity, and taking a variable number of parameters (variadic functions)
     -   Docblocks and function definitions
 -   Function evaluation & the call stack
--   Functions as values
+-   Functions as data
     -   Anonymous functions
     -   Functions as parameters and return objects
-    -   Functions as object methods
-    -   Functions, objects, and `this`
+    -   Functions as Object methods
+    -   Functions, Objects, and `this`
         -   Rules for binding `this`
         -   Arrow functions and `this`
         -   `call` and `apply`
         -   `bind`
-    -   Callback functions
+    -   Functions as abstractions for managing complexity
 
-#### 3.  Elements of programming: environments and control flow
+#### 3.  Elements of programming: scopes and control flow
 
 -   Code blocks
 -   Scope, naming, and environments
@@ -189,13 +201,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
         -   Base cases and recursive calls
         -   The leap of faith
         -   Tail call recursion
-    -   Tree recursion
     -   Stack frames and state
-    -   Recursive patterns
-        -   Every (map)
-        -   Keep (filter)
-        -   Accumulate (reduce)
-    -   Advanced recursion examples
     -   Pitfalls
 -   Iteration
     -   `while`
@@ -209,10 +215,16 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
         -   State
         -   Memory usage
         -   Performance
+        -   Mutability and assignment
 -   Errors and error handling
     -   `throw`
     -   `try`/`catch`/`finally`
--   Basic testing
+-   Basic debugging and testing
+    -   Using the Console
+    -   Using a debugger
+        -   Browser debuggers
+        -   Node's built-in Debugger
+        -   Debugging Node with the Chrome debugger
     -   The Assert API
     -   Build a simple testing library
     -   Using a 3rd party testing library
@@ -241,6 +253,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 
 -   Advanced object creation
     -   Objects without prototypes
+    -   Accessors
     -   Using Symbols as keys
     -   Setting property attributes
     -   Freezing Objects
@@ -256,33 +269,45 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 -   Maps vs. WeakMaps
 -   Structs
 
-#### 7. Object prototypes and inheritance, with and without `class`es
+#### 7. Objects and prototypal inheritance
 
--   Prototypes and first-class Objects
+-   Understanding object-oriented programming
+    -   Abstraction
+    -   Encapsulation
+    -   Inheritance
+    -   Polymorphism
+-   Understanding JavaScript's Object model and prototypes
 -   The `__proto__` property
+-   Prototypes _are_ Objects
 -   Inheritance and the prototype chain
 -   Constructor functions and the `new` keyword
--   Emulating classes and subclasses with prototypal inheritance
+-   Emulating classes and subclasses with constructors and prototypes
 -   Encapsulation and private data
 -   The ES5 module pattern
--   ES6 Classes and inheritance
+
+#### 8. ES6 Classes and inheritance
+
+-   Classes as syntactic sugar for prototypal inheritance pattern
     -   Creating subclasses with `extend` and `super()`
     -   Extend Classes with non-Class Objects
     -   Classes and strict mode
-    -   Converting constructors to Classes
     -   Static methods
     -   Private data?
     -   Field declaration syntax (experimental)
     -   Classes and `this`
+    -   Class expressions
     -   Classes and hoisting
--   Classes as special functions
--   Class expressions
--   Class mixins
+    -   Classes as special functions
+    -   Classes, mixins, and composition
+-   Converting constructors to Classes
+-   Differences between Classes and pseudoclassical inheritance with constructors
 -   Using Symbols to simulate interfaces
 -   Decorators, monkey patching, and duck typing
 -   Problems with inheritance, `new`, and ES6 Classes
+-   Alternate approach: behavior delegation
+-   Looking ahead to functional object-oriented programming
 
-#### 8. Arrays, Sets, and other iterable collections
+#### 9. Arrays, Sets, and other iterable collections
 
 -   Iteration, iterators, and iterables
 -   Arrays as lists
@@ -292,23 +317,37 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 -   Typed Arrays and binary data
 -   Sets and WeakSets
 -   Iterating with Objects, Maps, and WeakMaps
--   HTML collections in the browser
--   Making plain Objects iterable
--   Building a jQuery-like HTML Element collection
+    -   Making iterable Objects
+    -   HTML collections in the browser
+    -   Building a jQuery-like HTML Element collection
 -   Multidimensional Arrays
 -   [Symbol.iterator] and iterator methods
--   Building a Matrix data structure with multidimensional Arrays and [Symbol.iterator]
--   Tool functions and combinators
--   Infinite iterables
+    -   Building a Matrix data structure with multidimensional Arrays and [Symbol.iterator]
+    -   Tool functions and combinators
+    -   Infinite iterables
 -   Building a Python-like Tuple data structure
+-   Using collection libraries
+    -   Collection.js
+    -   Immutable.js
 
-#### 9. Metaprogramming with Symbols, Reflect, and Proxies
+#### 10. Metaprogramming JavaScript
 
-#### 10.  Building applications: organizing code and managing data flow with object-oriented design patterns
+-   Introspection
+-   Using constructors for built-in data types
+-   Defining code at runtime
+    -   The `new Function()` syntax
+    -   Is `eval()` evil?
+-   `Symbol`
+-   `Reflect`
+-   `Proxy`
+-   Feature testing
+-   Macros with Sweet.js
+
+#### 11.  Building applications: organizing code and managing data flow with object-oriented design patterns
 
 -   Classical design patterns
--   Messaging patterns
--   Modules, old and new
+-   Messaging and event-driven patterns
+-   Module patterns
 -   Application-level design patterns
 -   Microservices
 -   Functional and reactive patterns
@@ -317,13 +356,59 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 
 ### III. Programming with Functions
 
-#### 11. Higher order functions
+#### 12. Higher order functions
 
-#### 12. Scope, environments, and closures
+-   Recap: functions as data
+-   Functions as abstractions
+-   Higher order functions
+    -   Functions as parameters
+    -   Generalize methods of computation with polymorphic functions
+    -   Functions as returned values
+    -   Lambda expressions
+    -   Function decorators
+
+#### 13. Scopes and closures
+
+-   Lexical environments and functions
+    -   Bound and free variables
+    -   Stack frames and call objects
+-   Closures
+    -   You've been using closures all along
+    -   Nested functions and extended environments
+    -   Enclosing loops and code blocks
+    -   Closures, private data, and modules
+    -   Abstraction and encapsulated state
+    -   Referring to closures from global scope
+-   Using closures and higher order functions together
+-   Basic functional composition
+
+#### 13. Recursion revisited
+
+-   Advantages of recursion over iteration for functional programming
+-   Declarative recursion
+-   Exhaustive enumeration with linear recursion
+-   Mutual recursion
+-   Tree recursion
+-   Improving performance and memory management
+    -   Memoization
+    -   Proper tail calls
+    -   Replacing the stack
+    -   Continuation passing style
+    -   Trampolines
+    -   Self-adjusting code
+    -   Tail call optimization with Fext.js
+-   Recursive patterns
+    -   Every (map)
+    -   Keep (filter)
+    -   Accumulate (reduce)
+-   Advanced recursion examples
 
 #### 13. Purity of function is to do one thing
 
-#### 14. Functional abstraction and composition
+#### 14. Partial application and functional composition
+
+-   Composition definition and basics
+-   Expressions, abstractions, and applications: using the Lambda calculus to model computation
 
 #### 15. Containers and monads and functors, oh my!
 
@@ -377,27 +462,33 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 -   Mutable vs. immutable
 -   Synchronicity vs. asynchronicity
 -   Events and messaging
--   The finite state machine
+-   The application as a finite state machine
 
 #### 25. Building applications: using data structures to manage state
 
 **Project**
 
-### V.  Programming with asynchronicity and streams
+### V.  Programming asynchronously
 
 **Project**
 
-### VI. Programming the browser
+### VI. Programming reactively with real-time data and streams
+
+-   Observables and the observer pattern
 
 **Project**
 
-### VII. Programming on the server
+### VII. Programming the browser
 
 **Project**
 
-### VIII. Building a full-stack application with real world data and users
+### VIII. Programming on the server
 
-### IX. The kitchen sink
+**Project**
+
+### IX. Building a full-stack application with real world data and users
+
+### X. The kitchen sink
 
 -   A. Problem solving methodology
 -   B. Code formatting and style guides
