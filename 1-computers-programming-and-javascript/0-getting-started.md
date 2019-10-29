@@ -8,6 +8,8 @@ Understanding the basics of computer science will help you become a better progr
 
 I'm going to explain some computer science concepts, starting at a very basic level, to help things make more big-picture sense once we start programming in earnest.
 
+I'll also include examples in JavaScript, the language we'll be using throughout the series, of some of the concepts I discuss here. Don't worry if you don't understand them; that will come as we get into the programming part!
+
 ### Computing
 
 To make a very long story very, *very* short, **computing** is basically the act of calculating the solution to a problem, whether the problem is mathematical, scientific, literary, or of some other domain.[^1]
@@ -45,9 +47,7 @@ Early electronic computers were huge&mdash;so huge they could fill a room, or ev
 
 ![Watching a video on a pocket-sized computer](https://upload.wikimedia.org/wikipedia/commons/d/dd/2015-07-03_Grundschule_Goetheplatz%2C_Hannover%2C_Schulfest_mit_Kinderliedermacher_Unmada_%2842%29.JPG)
 
-*Photo by [Bernd Schwabe](https://de.wikipedia.org/wiki/Benutzer:Bernd_Schwabe_in_Hannover), published under Creative Commons ([CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)).*
-
-*Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:People_with_smartphones#/media/File:2015-07-03_Grundschule_Goetheplatz,_Hannover,_Schulfest_mit_Kinderliedermacher_Unmada_(42).JPG)*
+*Photo credit: [Bernd Schwabe](https://de.wikipedia.org/wiki/Benutzer:Bernd_Schwabe_in_Hannover), published under Creative Commons ([CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)). Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:People_with_smartphones#/media/File:2015-07-03_Grundschule_Goetheplatz,_Hannover,_Schulfest_mit_Kinderliedermacher_Unmada_(42).JPG)*
 
 ### Computer science
 
