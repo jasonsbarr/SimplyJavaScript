@@ -743,6 +743,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Browsers vs. Node
 
 #### 38. The event pattern
+
 -   Event-driven programming is reactive
 -   Events as observables
 -   Event observers
@@ -778,8 +779,10 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
                 -   Attaching data to your event
                 -   Retrieving event listeners
 -   Event-driven applications and reactive programming
+-   Handling events with Promises and streams
 
 #### 39. Using callbacks
+
 -   Callbacks aren't always asynchronous
 -   But sometimes they are
 -   Callbacks and errors
@@ -819,12 +822,19 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Similarities to the event pattern
     -   Resolved vs. rejected Promises
     -   Handle results with `.then()`
+    -   Handle errors with `.catch()`
 -   Promise's promises
     -   Better callback timing
-    -   Callbacks added with `.then()` will even execute after success _or_ failure
+    -   Using `.then()` as `finally`
     -   You can chain multiple callbacks that will execute sequentially by calling `.then()` multiple times
 
-#### 42. Async/await for more readable code
+#### 42. Async/await for more readable async code
+
+-   Promise chaining and readability
+-   `async...await` makes asynchronous code look more like synchronous
+-   Defining `async` functions
+-   Calling `async` functions
+-   `async` pitfalls and gotchas
 
 #### 43. Asynchronous iterators and generators
 
@@ -852,13 +862,10 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 -   Reactive libraries
     -   Bacon.js
     -   Rx.js
-    -   Cycle.js
-    -   Most.js
-    -   xstream.js
 
 #### 48. Programming the browser: `Window` and the Document Object Model
 
--   Build a component-based UI to abstract away DOM objects and manipulations with Riot.js
+-   Build a component-based, reactive UI with modern state management principles
 
 #### 49. Additional browser and Web APIs
 
