@@ -56,7 +56,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 
 #### 0. Getting started with computing and computer science
 
-##### _Write most of this section as separate articles_
+##### *Write most of this section as separate articles*
 
 -   What is a computer?
     -   Human computers and calculating machines
