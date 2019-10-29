@@ -147,6 +147,10 @@ That's the power of abstraction.
 
 ## Radical computer science: programming as human expression
 
+```javascript
+/* TODO */
+```
+
 [^1]: There are some who would say "computing" is just a mathematical term. Those people are silly and should be avoided whenever possible. Or, at the very least, they need to expand their definition of "mathematical."
 
 [^2]: In a book called *The yong mans gleanings* by the English writer Richard Braithwait.
