@@ -48,6 +48,10 @@ The [Modern JavaScript Tutorial](https://javascript.info) stands out as a stella
 
 Finally, [_JavaScript for Impatient Programmers_](https://exploringjs.com/impatient-js/) by Dr. Axel Rauschmayer is a fantastic introduction to modern JavaScript for newcomers who already know how to program in another language.
 
+## Other versions
+
+- Dev.to &ndash; [Simply JavaScript: learn computer science and programming in the world's most ubiquitous language (introduction and index)](https://dev.to/jasonsbarr/simply-javascript-learn-computer-science-and-programming-in-the-world-s-most-ubiquitous-language-introduction-and-index-29m5)
+
 ## Outline/Table of Contents
 
 Since I'm in the _very_ early stages of developing this series, this is subject to change _radically_ without notice
