@@ -52,9 +52,9 @@ Finally, [_JavaScript for Impatient Programmers_](https://exploringjs.com/impati
 
 Since I'm in the _very_ early stages of developing this series, this is subject to change _radically_ without notice
 
-### I.  Computers, programming, and JavaScript
+### I.  [Computers, programming, and JavaScript](1-computers-programming-and-javascript)
 
-#### 0. Getting started with computing and computer science
+#### 0. [Getting started with computing and computer science](1-computers-programming-and-javascript/0-getting-started.md)
 
 ##### *Write most of this section as separate articles*
 
