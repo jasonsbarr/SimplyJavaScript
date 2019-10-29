@@ -56,21 +56,23 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 
 #### 0. Getting started with computing and computer science
 
+##### _Write most of this section as separate articles_
+
 -   What is a computer?
     -   Human computers and calculating machines
-        -   Primitive computing
-        -   1613: first known use of the word "computer"
-        -   19th and early 20th century computing
-            -   Human computing
-            -   Mechanical computing
-            -   The Analytical Engine: the first theoretically universal computing machine
-                -   The first computer programs
-                -   Ada's vision of symbolic computing
+    -   Primitive computing
+    -   1613: first known use of the word "computer"
+    -   19th and early 20th century computing
+        -   Human computing
+    -   Mechanical computing
+    -   The Analytical Engine: the first theoretically universal computing machine
+        -   The first computer programs
+        -   Ada's vision of symbolic computing
     -   Early digital computers
         -   ABC
         -   Colossus
     -   Turing completeness and computability
-        -   ENIAC &ndash; the first Turing complete digital computer
+        -   ENIAC – the first Turing complete digital computer
     -   Stored program computers and code as data (von Neumann architecture)
         -   Manchester Mark 1
         -   EDVAC
