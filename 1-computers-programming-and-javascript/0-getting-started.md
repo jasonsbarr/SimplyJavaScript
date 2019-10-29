@@ -41,7 +41,7 @@ const properlyFormattedAuthor = badlyFormattedAuthor
 
 A **computer** in the broad sense is anything that computes. We usually think of computers as machines, but the first computers were actually human beings!
 
-In fact, the earliest use we know of the word "computer" was a reference to a person who carried out mathematical calculations,[^2] and the word was used in the same way until mechanical computers became more prominent in the late 19th century.
+In fact, the earliest use we know of the word "computer" was a reference to a person who carried out mathematical calculations,[^2] and the word was used exclusively in the same way until mechanical computers became more prominent in the late 19th century.
 
 Early electronic computers were huge&mdash;so huge they could fill a room, or even *several* rooms. They got smaller as computer designs and engineering improved, and now you can fit fully-functional computers with more computing power than those room-sized, 1960s behemoths in your pocket.
 
