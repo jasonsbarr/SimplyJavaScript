@@ -1,10 +1,17 @@
 # Getting started with computing and computer science
 
 ## Computing, computers, and computer science
+---
+title: Getting started with computing and 💻 computer science (with examples in JavaScript... and dessert! 🍰)
+published: true
+description: A non-threatening (and tasty!) introduction to some basic computer science ideas using JavaScript (and pie!) for examples.
+tags: javascript, computerscience, tutorial, beginners
+series: Simply JavaScript
+---
 
-Technically you don't *have* to understand computer science in order to program. I worked as a freelance programmer for years before I read my first book on computer science.
+Ok, so technically you don't *have* to understand computer science in order to program. In fact, I worked as a freelance programmer for years before I read my first book on computer science.
 
-Understanding the basics of computer science will help you become a better programmer, though. Once you know how to think like a computer scientist, you'll be able to compose more efficient, more effective programs. Maybe you'll even be able to get paid more!
+Understanding the basics of computer science will help you become a better programmer, though. Once you know how to think like a computer scientist, you'll be able to compose more efficient, more effective programs. Maybe you'll even be able to get paid more! 🤑
 
 I'm going to explain some computer science concepts, starting at a very basic level, to help things make more big-picture sense once we start programming in earnest.
 
@@ -116,7 +123,7 @@ Recipes for cooking are often used as an analogy for algorithms, and with good r
 > 5. Freeze for 4 hours, or until the ice cream is hardened.
 > 6. Enjoy!
 
-*Most computer programs don't sound this delicious!* 😋😋😋
+_Source: [3-ingredient Cookies & Ice Cream Pie Recipe by Tasty](https://tasty.co/recipe/3-ingredient-cookies-ice-cream-pie)_
 
 ### Complexity and abstraction
 
@@ -143,7 +150,21 @@ Abstraction is a powerful tool for managing complexity. Think about it: if you k
 
 You don't need to know how the fuel injection system, internal combustion, or the computers that make your car run work; you can just push the pedal and go.
 
-That's the power of abstraction.
+Abstraction and decomposition are powerful tools for managing complexity, which is central to the task of programming. Programming is all about managing complexity in order to create change.[^5]
+
+### Coming up
+
+In the next installment I'll discuss what programming and programs are and how programming languages work, and we'll write our first JavaScript programs together.
+
+[^1]: There are some who would say "computing" is just a mathematical term. Those people are silly and should be avoided whenever possible. Or, at the very least, they need to expand their definition of "mathematical."
+
+[^2]: In a book called *The yong mans gleanings* by the English writer Richard Braithwait.
+
+[^3]: See the [online textbook for Berkeley's old CS61AS course](https://berkeley-cs61as.github.io/textbook/intro-to-computer-science.html)
+
+[^4]: Who knew computing could be so delicious?
+
+[^5]: J. Guttag, _Introduction to computation and programming using Python: with application to understanding data_. Cambridge, MA: The MIT Press, 2017, p. 110.
 
 ## Radical computer science: programming as human expression
 
