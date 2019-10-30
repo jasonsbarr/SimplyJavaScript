@@ -1,13 +1,6 @@
 # Getting started with computing and computer science
 
 ## Computing, computers, and computer science
----
-title: Getting started with computing and 💻 computer science (with examples in JavaScript... and dessert! 🍰)
-published: true
-description: A non-threatening (and tasty!) introduction to some basic computer science ideas using JavaScript (and pie!) for examples.
-tags: javascript, computerscience, tutorial, beginners
-series: Simply JavaScript
----
 
 Ok, so technically you don't *have* to understand computer science in order to program. In fact, I worked as a freelance programmer for years before I read my first book on computer science.
 
