@@ -60,55 +60,23 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 
 #### 0. [Getting started with computing and computer science](1-computers-programming-and-javascript/0-getting-started.md)
 
-##### *Write most of this section as separate articles*
-
--   What is a computer?
+-   [What is computing?](1-computers-programming-and-javascript/0-getting-started.md#computing)
+-   [What is a computer?](1-computers-programming-and-javascript/0-getting-started.md#computers)
     -   Human computers and calculating machines
-    -   Primitive computing
     -   1613: first known use of the word "computer"
-    -   19th and early 20th century computing
-        -   Human computing
-    -   Mechanical computing
-    -   The Analytical Engine: the first theoretically universal computing machine
-        -   The first computer programs
-        -   Ada's vision of symbolic computing
-    -   Early digital computers
-        -   ABC
-        -   Colossus
-    -   Turing completeness and computability
-        -   ENIAC – the first Turing complete digital computer
-    -   Stored program computers and code as data (von Neumann architecture)
-        -   Manchester Mark 1
-        -   EDVAC
-    -   Computers continue to get smaller and faster and more powerful
--   What is computer science?
-    -   Computation and computing
-    -   Theoretical computer science
-    -   Applications of CS
+    -   From human to digital computers
+-   [What is computer science?](1-computers-programming-and-javascript/0-getting-started.md#computer-science)
     -   The 3 big questions
         -   What can we compute?
         -   What's the best way to compute it?
         -   What can we make or do with the result?
-    -   Thinking algorithmically
--   Complexity and abstraction
+    -   [Systematic problem solving](1-computers-programming-and-javascript/0-getting-started.md#systematic-problem-solving)
+    -   [Algorithms and thinking algorithmically](1-computers-programming-and-javascript/0-getting-started.md#algorithms-and-thinking-algorithmically)
+-   [Complexity and abstraction](1-computers-programming-and-javascript/0-getting-started.md#complexity-and-abstraction)
     -   Programming as managing complexity
-    -   Abstraction lets us treat a complicated process as a single understanding
+    -   Abstraction lets us treat a complicated process as a simple understanding
     -   Car example
--   "Radical computer science"
-    -   Programming as human expression
-        -   Using machines and code to express human thoughts and (hopefully) solve human problems
-        -   Translating between machines and humans
-        -   Programming is _hard_, regardless of whether you approach it as art or science (it's both)
-    -   Code is ποίησις.
-        -   Expressing ideas, not just getting computers to do things
-        -   Structured programming: computing based on control and correctness
-        -   Symbolic programming: computing based on ideas
-            -   Taking human ideas and making them material
-            -   Programs are "little bits of you that perform independently"
-        -   To program is to build something, and not just crunch numbers
-        -   Computing can produce art, music, architecture, theatre
-        -   Symbols are data the computer, and by extension the engineer, transforms into something meaningful
-    -   The most important thing I can accomplish with these tutorials is to enable you to express yourself more fully by building something beautiful
+    -   Managing complexity is central to programming
 
 #### 1. Understanding programs and programming languages
 
