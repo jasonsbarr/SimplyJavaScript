@@ -12,7 +12,7 @@ I'll also include examples in JavaScript, the language we'll be using throughout
 
 ### Computing
 
-To make a very long story very, *very* short, **computing** is basically the act of calculating the solution to a problem, whether the problem is mathematical, scientific, literary, or of some other domain.[1]
+To make a very long story very, *very* short, **computing** is basically the act of calculating the solution to a problem, whether the problem is mathematical, scientific, literary, or of some other domain.<sup>[1](#notes)</sup>
 
 #### *Example 1*
 
@@ -41,7 +41,7 @@ const properlyFormattedAuthor = badlyFormattedAuthor
 
 A **computer** in the broad sense is anything that computes. We usually think of computers as machines, but the first computers were actually human beings!
 
-In fact, the earliest use we know of the word "computer" was a reference to a person who carried out mathematical calculations,[2] and the word was used exclusively in the same way until mechanical computers became more prominent in the late 19th century.
+In fact, the earliest use we know of the word "computer" was a reference to a person who carried out mathematical calculations,<sup>[2](#notes)</sup> and the word was used exclusively in the same way until mechanical computers became more prominent in the late 19th century.
 
 Early electronic computers were huge&mdash;so huge they could fill a room, or even *several* rooms. They got smaller as computer designs and engineering improved, and now you can fit fully-functional computers with more computing power than those room-sized, 1960s behemoths in your pocket.
 
@@ -51,7 +51,7 @@ Early electronic computers were huge&mdash;so huge they could fill a room, or ev
 
 ### Computer science
 
-It follows, then, that **computer science** is the rigorous study of how computing works. Trying to arrive at a precise definition of computer science is rather like nailing Jello to a wall, but we might broadly say it seeks to answer *at least* these 3 questions:[3]
+It follows, then, that **computer science** is the rigorous study of how computing works. Trying to arrive at a precise definition of computer science is rather like nailing Jello to a wall, but we might broadly say it seeks to answer *at least* these 3 questions:<sup>[3](#notes)</sup>
 
 1. What can we compute?
 2. How can we compute it?
@@ -93,7 +93,7 @@ const sumOfSquares = numbers.reduce((sum, number) =>
 
 To solve problems systematically you must learn to think in terms of algorithms. An **algorithm** is a process you use to solve a particular problem.
 
-Recipes for cooking are often used as an analogy for algorithms, and with good reason: a recipe is essentially an algorithm for preparing a particular dish.[4]
+Recipes for cooking are often used as an analogy for algorithms, and with good reason: a recipe is essentially an algorithm for preparing a particular dish.<sup>[4](#notes)</sup>
 
 #### *Example 3*
 
@@ -143,7 +143,11 @@ Abstraction is a powerful tool for managing complexity. Think about it: if you k
 
 You don't need to know how the fuel injection system, internal combustion, or the computers that make your car run work; you can just push the pedal and go.
 
-Abstraction and decomposition are powerful tools for managing complexity, which is central to the task of programming. Programming is all about managing complexity in order to create change.[5]
+Abstraction and decomposition are powerful tools for managing complexity, which is central to the task of programming. Programming is all about managing complexity in order to create change.<sup>[5](#notes)</sup>
+
+<hr>
+
+### Notes
 
 [1]: There are some who would say "computing" is just a mathematical term. Those people are silly and should be avoided whenever possible. Or, at the very least, they need to expand their definition of "mathematical."
 
