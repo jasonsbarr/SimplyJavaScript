@@ -54,9 +54,17 @@ const declarativeFilter = numbers => {
 }
 ```
 
-Even if you don't understand exactly how each of these programs work just yet, you can probably still see how the declarative program would be simpler to read and understand than the imperative one.
+Even if you don't understand exactly how each of these programs work just yet, you can probably still see how the declarative program is simpler to read and understand than the imperative one.
 
-Declarative style is a rising trend right now, but that doesn't necessarily mean it's _better_ than imperative programming. A good programmer knows how to use either style or a mix of the two depending on what a given situation requires.
+The second program also the advantage of using **immutable data**, which means the data structures you define in your program do not change.
+
+We'll see why that's a good thing later.
+
+### The declarative trend
+
+Declarative style is a rising trend right now, but that doesn't necessarily mean it's _better_ than imperative programming.
+
+A good programmer knows how to use either style or a mix of the two depending on what a given situation requires.
 
 Since declarative programming is such a big deal right now, I'm going to take extra care in making sure you understand how to read and write programs written in that style.
 
