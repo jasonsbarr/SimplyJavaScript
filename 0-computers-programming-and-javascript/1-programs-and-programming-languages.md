@@ -1,4 +1,4 @@
-# Understanding programs and programming languages
+# Understanding programs, algorithms, and data
 
 In article 0,[^1] [Getting started with computing, computers, and computer science](./0-getting-started.md), I mentioned programming a few times. In this article I'll discuss a bit about what exactly programming is, how programming and programming languages work, characteristics of different programming languages, and how to start programming in JavaScript.
 

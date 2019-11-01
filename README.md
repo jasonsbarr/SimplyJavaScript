@@ -78,7 +78,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Car example
     -   Managing complexity is central to programming
 
-#### 1. Understanding programs and data processing
+#### 1. Understanding programs, algorithms, and data
 
 -   What is a program? A piece of written language that describes how the computer will perform a computation
     -   Declarative vs. imperative programming styles
