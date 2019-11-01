@@ -16,6 +16,8 @@ Here's an imperative program that gets the even values from a list of numbers.
 
 #### Example 1: imperative JavaScript
 
+This example uses the modulo operator (`%`), which gives you the remainder from dividing the first number by the second. If the first is divisible by the second, the result will be zero.
+
 ```javascript
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
@@ -23,11 +25,6 @@ const imperativeFilter = numbers => {
   const evens = [];
 
   for (let i = 0; i < numbers.length; i += 1) {
-    // % is the modulo operator, which gives you the
-    // remainder from dividing its first argument
-    // by its second argument. If a number is
-    // divisible by a second number, the
-    // result will be zero.
     if (numbers[i] % 2 === 0) {
       evens.push(numbers[i]);
     }
@@ -41,14 +38,12 @@ Now here's a program that does the same thing, but in a declarative style.
 
 #### Example 2: declarative JavaScript
 
+Defining the `isEven` function isn't actually necessary, but I wanted to make what's going on here more explicit for the reader.
+
 ```javascript
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 const declarativeFilter = numbers => {
-  // Defining the helper function isn't strictly
-  // necessary, but I wanted to make the steps
-  // of the function as explicit as possible
-  // so it's easier to read and understand.
   const isEven = number => number % 2 === 0;
   return numbers.filter(isEven);
 }
