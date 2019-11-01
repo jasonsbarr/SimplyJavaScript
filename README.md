@@ -78,7 +78,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Car example
     -   Managing complexity is central to programming
 
-#### 1. Understanding programs and programming languages
+#### 1. Understanding programs and data processing
 
 -   What is a program? A piece of written language that describes how the computer will perform a computation
     -   Computation and algorithms
@@ -100,6 +100,9 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
         1.  Set of instructions
         2.  Flow of control
         3.  Terminal condition
+
+#### 2. Programming languages: what they are and how they work
+
 -   Programming languages are languages
     -   Digital representation of human language
     -   Elements of programming languages
@@ -116,6 +119,9 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Compiled vs. interpreted
     -   Dynamically vs. statically typed
     -   Compile time and runtime
+
+#### 3. The JavaScript language: what it is and how to write your first programs
+
 -   A _very brief_ history of JavaScript
     -   Early history and influences
     -   ECMAScript versions 3, 4, and 5
@@ -129,7 +135,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 -   Running JavaScript programs interactively
     -   Browser console
     -   Node REPL
--   Your first program: "Hello, JavaScript"
+-   Your first program(s)
 
 ### II. The basic elements of programming
 
