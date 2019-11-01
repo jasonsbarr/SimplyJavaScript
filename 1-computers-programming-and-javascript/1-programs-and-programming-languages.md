@@ -60,7 +60,9 @@ Even if you don't understand exactly how each of these programs work just yet, y
 
 Declarative style is a rising trend right now, but that doesn't necessarily mean it's _better_ than imperative programming. A good programmer knows how to use either style or a mix of the two depending on what a given situation requires.
 
-Since declarative programming is such a big deal right now, I'm going to take extra care in making sure you understand how to read and write programs written in that style. By the time we're finished you should be equally fluent in each paradigm.
+Since declarative programming is such a big deal right now, I'm going to take extra care in making sure you understand how to read and write programs written in that style.
+
+By the time we're finished you should be equally fluent in each paradigm.
 
 ### Programs, computation and algorithms
 
