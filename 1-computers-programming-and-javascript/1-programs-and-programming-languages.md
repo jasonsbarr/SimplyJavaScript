@@ -6,8 +6,6 @@ In article 0,[^1] [Getting started with computing, computers, and computer scien
 
 At its most basic level, a program is a piece of written language that tells the computer to perform a computation. How exactly a program is written depends on the language, the programmer's style, and in some cases the machine the program is written for.
 
-For the sake of completeness (and at the risk of being ridiculously pedantic), I feel compelled to point out that the languages in which programs are written are called **programming languages**.
-
 ### Imperative vs. declarative programming styles
 
 A program may go into great detail about exactly _how_ the computer should solve the problem in a step-by-step manner, or it can be written more to tell the computer _what_ to do and trust the computer itself to apply the proper steps.
