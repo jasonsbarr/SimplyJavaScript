@@ -56,23 +56,23 @@ Finally, [_JavaScript for Impatient Programmers_](https://exploringjs.com/impati
 
 Since I'm in the _very_ early stages of developing this series, this is subject to change _radically_ without notice
 
-### I.  [Computers, programming, and JavaScript](1-computers-programming-and-javascript)
+### I.  [Computers, programming, and JavaScript](0-computers-programming-and-javascript)
 
-#### 0. [Getting started with computing and computer science](1-computers-programming-and-javascript/0-getting-started.md)
+#### 0. [Getting started with computing and computer science](0-computers-programming-and-javascript/0-getting-started.md)
 
--   [What is computing?](1-computers-programming-and-javascript/0-getting-started.md#computing)
--   [What is a computer?](1-computers-programming-and-javascript/0-getting-started.md#computers)
+-   [What is computing?](0-computers-programming-and-javascript/0-getting-started.md#computing)
+-   [What is a computer?](0-computers-programming-and-javascript/0-getting-started.md#computers)
     -   Human computers and calculating machines
     -   1613: first known use of the word "computer"
     -   From human to digital computers
--   [What is computer science?](1-computers-programming-and-javascript/0-getting-started.md#computer-science)
+-   [What is computer science?](0-computers-programming-and-javascript/0-getting-started.md#computer-science)
     -   The 3 big questions
         -   What can we compute?
         -   What's the best way to compute it?
         -   What can we make or do with the result?
-    -   [Systematic problem solving](1-computers-programming-and-javascript/0-getting-started.md#systematic-problem-solving)
-    -   [Algorithms and thinking algorithmically](1-computers-programming-and-javascript/0-getting-started.md#algorithms-and-thinking-algorithmically)
--   [Complexity and abstraction](1-computers-programming-and-javascript/0-getting-started.md#complexity-and-abstraction)
+    -   [Systematic problem solving](0-computers-programming-and-javascript/0-getting-started.md#systematic-problem-solving)
+    -   [Algorithms and thinking algorithmically](0-computers-programming-and-javascript/0-getting-started.md#algorithms-and-thinking-algorithmically)
+-   [Complexity and abstraction](0-computers-programming-and-javascript/0-getting-started.md#complexity-and-abstraction)
     -   Programming as managing complexity
     -   Abstraction lets us treat a complicated process as a simple understanding
     -   Car example
