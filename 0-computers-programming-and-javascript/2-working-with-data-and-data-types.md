@@ -20,13 +20,13 @@ If you didn't, go do them now and then come back here.
 
 ### Numbers and arithmetic
 
-Unlike other languages, JavaScript uses one **Number** type for both **integers** and **floating-point numbers.**[^4]
+Unlike other languages, JavaScript uses one **Number** type for both integers and floating-point numbers.[^1]
 
-Integers are just regular numbers like the ones you count with that don't evaluate to fractions.
+**Integers** are just regular numbers like the ones you count with that don't evaluate to fractions.
 
 They include positive whole numbers, negative numbers, and zero.
 
-Floating-point numbers are written like and work in the same way as decimals, but the underlying representation is in binary.
+**Floating-point numbers** are written like and work in the same way as decimals, but the underlying representation is in binary.
 
 This can lead to some interesting quirks since things that are evenly divisible with decimal numbers might not be with binary numbers.
 
@@ -124,7 +124,7 @@ You can use both the `+` and `*` operators with strings. This is called **operat
 
 ### Booleans
 
-Booleans are simply `true` or `false` values. It may not seem like much, but they're one of the most useful concepts in programming.[^5]
+Booleans are simply `true` or `false` values. It may not seem like much, but they're one of the most useful concepts in programming.[^2]
 
 It's rare that you'll work with Booleans directly in their raw `true` and `false` form. The most common use for Booleans is to evaluate expressions for **truthiness** or **falsiness** to determine the control flow of a program.
 
@@ -159,7 +159,7 @@ so's_this
 
 ### Naming Conventions
 
-Most of the time in JavaScript code you'll see names written either with camelCase or PascalCase.[^6]
+Most of the time in JavaScript code you'll see names written either with camelCase or PascalCase.[^3]
 
 Sometimes you'll see names written in snake_case, which uses underscores to separate words.
 
@@ -177,7 +177,7 @@ Instead of `x` use `number`. Instead of `str` for a String, use `firstName` or a
 
 An assignment expression simply uses a single equals sign (=) to bind the value on the right side to the name on the left.
 
-It starts with either the keyword `const` for a constant binding or `let` for a variable.[^7]
+It starts with either the keyword `const` for a constant binding or `let` for a variable.[^4]
 
 #### Example 12: Simple bindings
 
@@ -196,7 +196,7 @@ The last of those can be done more cleanly with a backtick String, also known as
 const fullName = `${firstName} ${lastName}`;
 ```
 
-I always use template literals when using values in strings, but you'll see interpolation with `+` especially in older code, as template literals weren't officially part of JavaScript until 2015.[^8]
+I always use template literals when using values in strings, but you'll see interpolation with `+` especially in older code, as template literals weren't officially part of JavaScript until 2015.[^5]
 
 You can also assign the value of an expression to a name. This can be any expression, including an arithmetic operation, a function, or any other expression.
 
@@ -210,12 +210,12 @@ const value = 5 + (2.9 * 4.2) / 3.14; //-> 8.878980891719745
 
 ### Notes
 
-[^4]: There is a new `BigInt` data type proposal, but it is not yet part of the JavaScript standard as of November 2019.
+[^1]: There is a new `BigInt` data type proposal, but it is not yet part of the JavaScript standard as of November 2019.
 
-[^5]: Booleans are named after the English mathematician, philosopher, and logician [George Boole](https://en.wikipedia.org/wiki/George_Boole). Boole made the first formulation of what is now known as Boolean Algebra, which measures truth and falsity based on conjunction (_and_), dysjunction (_or_), and negation (_not_) and forms the logical basis of modern computing.
+[^2]: Booleans are named after the English mathematician, philosopher, and logician [George Boole](https://en.wikipedia.org/wiki/George_Boole). Boole made the first formulation of what is now known as Boolean Algebra, which measures truth and falsity based on conjunction (_and_), dysjunction (_or_), and negation (_not_) and forms the logical basis of modern computing.
 
-[^6]: Confusingly, sometimes people will refer to UpperCamelCase and lowerCamelCase.
+[^3]: Confusingly, sometimes people will refer to UpperCamelCase and lowerCamelCase.
 
-[^7]: There is also the `var` keyword, which was the original way of binding variables in JavaScript, but you shouldn't use it anymore. You'll see it in the wild, mostly in older code, so you need to know what it is, but it's never necessary or desirable to use it anymore because it has some really annoying quirks I will go into in a later chapter. For now all you need to know is _always_ use `const` when possible, and when it's not use `let`.
+[^4]: There is also the `var` keyword, which was the original way of binding variables in JavaScript, but you shouldn't use it anymore. You'll see it in the wild, mostly in older code, so you need to know what it is, but it's never necessary or desirable to use it anymore because it has some really annoying quirks I will go into in a later chapter. For now all you need to know is _always_ use `const` when possible, and when it's not use `let`.
 
-[^8]: From now on I'll use either **ES6+** or the year a feature was added (e.g. **ES2015**) to describe language features added to JavaScript since 2015 when regular updates to the standard began. **ES** stands for **ECMAScript,** named after ECMA, the standardizing body for JavaScript. ECMAScript is the official name of the standardized JavaScript language. We'll discuss that more when we go over the history of JavaScript in a future chapter.
+[^5]: From now on I'll use either **ES6+** or the year a feature was added (e.g. **ES2015**) to describe language features added to JavaScript since 2015 when regular updates to the standard began. **ES** stands for **ECMAScript,** named after ECMA, the standardizing body for JavaScript. ECMAScript is the official name of the standardized JavaScript language. We'll discuss that more when we go over the history of JavaScript in a future chapter.
