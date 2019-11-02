@@ -52,6 +52,8 @@ A statement the JavaScript interpreter reads, evaluates, and returns a value fro
 
 Any value that's valid to the JavaScript interpreter can be used as an expression.
 
+You should always end expressions with a semicolon (;).[^3]
+
 ### Try it yourself: exercises for further learning
 
 1. Type additional words and sentences into the console. Make sure to enclose them in quotation marks! Try them with single quotes ('), double quotes ("), and backticks (`).
@@ -76,26 +78,10 @@ Or it could simply tell the computer _what to do_, and let it handle the steps (
 
 We'll talk more about imperative vs. declarative programming styles throughout the series.
 
-## Simple data and data operations
-
-The basic task of any program is to do some kind of transformation with **data.**
-
-Data is a symbol or collection of symbols that are given meaning by specific acts of interpretation.
-
-This is a bit of a philosophical definition, but it's necessary in this case: in order to use data it must be given meaning in some way so a program (or, indeed, a human) knows how to use it.
-
-### Numbers and arithmetic
-
-### Strings
-
-### Booleans and Boolean expressions
-
-### Type coercion
-
-## Binding data to names: constants and variables
-
 ### Notes
 
 [^1]: In most programming languages, counting starts from zero instead of one.
 
 [^2]: Printing "Hello world" as the first program when learning a new language is a tradition first found in Brian Kernighan's 1972 _A Tutorial Introduction to the Language B_. See [Wikipedia](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) for more about the history and purpose of "Hello world".
+
+[^3]: Technically you can write most JavaScript expressions without a semicolon at the end and it will perform Automatic Semicolon Insertion; however, the rules for this are complex so you're better off always using a semicolon for now. When you have more experience you can decide whether or not to use semicolons. There are popular JavaScript style guides for both cases. I prefer to always use semicolons, but in actual projects you should go with the style guide the project you're working on uses.

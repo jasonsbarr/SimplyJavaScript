@@ -78,11 +78,18 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 -   Simple data types and operations
     -   Numbers and arithmetic
     -   Strings
-    -   Booleans and Boolean expressions
-    -   Type coercion
+    -   Booleans
 -   Binding data to names: constants and variables
 
-#### 2. Simple algorithms and working with data
+#### 2. Data, Types, and binding data
+
+#### 3. Functions and control flow
+
+-   Defining functions
+-   Boolean expressions
+-   Type coercion
+
+#### 3. Simple algorithms and working with data
 
 -   Computation and algorithms
     -   Computation: a rational process that transforms data into results
@@ -104,7 +111,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Managing machine and program state is one of the most crucial (and difficult!) tasks a programmer must perform
 -   The program gets data as input, performs operations on the data that move it through various states in the process, and outputs the resulting new information
 
-#### 3. Programming languages: what they are and how they work
+#### 4. Programming languages: what they are and how they work
 
 -   Programming languages are languages
     -   Digital representation of human language
@@ -123,7 +130,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Dynamically vs. statically typed
     -   Compile time and runtime
 
-#### 4. The JavaScript language: what it is and how to write your first programs
+#### 5. The JavaScript language in greater depth
 
 -   A _very brief_ history of JavaScript
     -   Early history and influences
@@ -138,11 +145,10 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 -   Running JavaScript programs interactively
     -   Browser console
     -   Node REPL
--   Your first program(s)
 
 ### II. The basic elements of programming
 
-#### 5.  Data, types, and binding values
+#### 6.  Data, types, and binding values
 
 -   Expressions and values
 -   Primitive data types
@@ -180,7 +186,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Garbage collection
 -   Example: Dog years converter
 
-#### 6.  Operations and functions
+#### 7.  Operations and functions
 
 -   Operations and expressions
 -   Unary and binary operators
@@ -219,7 +225,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Functions as abstractions for managing complexity
 -   Example: Units converter between SI and Imperial
 
-#### 7.  Scopes and control flow
+#### 8.  Scopes and control flow
 
 -   Code blocks
 -   Scope, naming, and environments
@@ -286,7 +292,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Using a 3rd party testing library
 -   Example: Rock, paper, scissors game (Stretch: add lizard, Spock)
 
-#### 8.  Building applications: program organization and design
+#### 9.  Building applications: program organization and design
 
 -   Why design programs?
 -   Declarative vs. imperative programming
