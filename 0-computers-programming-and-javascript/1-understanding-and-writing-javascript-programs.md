@@ -1,6 +1,6 @@
 # Understanding and writing JavaScript programs with simple data
 
-In the previous article,[^1] [Getting started with computing, computers, and computer science](./0-getting-started.md), I mentioned programming a few times. In this article we'll write our first JavaScript programs and explore what programs are in a little more depth.
+In [the previous chapter](./0-getting-started.md),[^1], I mentioned programming a few times. In this article we'll write our first JavaScript programs and explore what programs are in a little more depth.
 
 ## Hello, world: our first JavaScript program
 
@@ -12,7 +12,7 @@ We'll actually do both of these for our purposes in a future chapter, but one of
 
 _Mac users can substitute the `COMMAND` key for `CTRL` and `OPTION` for `ALT`._
 
-First, open a new browser tab with a blank window. You should be able to do this by putting `about:blank` in the URL bar.
+First, open a new browser tab with a blank page. You should be able to show a completely blank page by putting `about:blank` in the URL bar of your new tab.
 
 This will keep items specific to any particular web page from showing up in your console.
 
@@ -25,7 +25,7 @@ Opening the console will vary by browser, but here are the basics:
 - If you're using Microsoft Edge, follow these steps:
   1. Download and install a better browser for development work, like Chrome or Firefox.
   2. Close Edge and open the newly-installed one.
-  3. Follow the above steps for the browser you've chosen.
+  3. Follow the above steps for the browser you've chosen.[^2]
 
 ### Writing your first JavaScript program
 
@@ -36,7 +36,7 @@ Now that you've got the console open, make sure your cursor is visible next to t
 
 Simply type into the console `"Hello, world!"` and press `ENTER`.
 
-The console should repeat `"Hello, world!"` back to you.[^2]
+The console should repeat `"Hello, world!"` back to you.[^3]
 
 ![hello-world](./images/hello-world.png "Hello, world!")
 
@@ -46,7 +46,7 @@ This is actually a complete, valid JavaScript program, but it's not terribly use
 
 ### How the interpreter works to run your first program
 
-The console will simply evaluate any valid JavaScript value that you type into it and **return** it back to you as itself.
+The console will simply evaluate any valid JavaScript code that you type into it and **return** the value it calculates back to you.
 
 A valid piece of code that forms a complete "thought" in JavaScript, analogous to a sentence in English, is called a **statement.**
 
@@ -54,7 +54,9 @@ A statement the JavaScript interpreter reads, evaluates, and returns a value fro
 
 Any value that's valid to the JavaScript interpreter can be used as an expression.
 
-You should always end expressions with a semicolon (;).[^3]
+You should always end expressions with a semicolon (;).[^4]
+
+In this case, the interpreter takes your expression, `"Hello, world!"`, evaluates it, and, since a simple value evaluates to itself, returns it back to you.
 
 ## What is a program?
 
@@ -67,6 +69,10 @@ How exactly a program is written depends on the language, the programmer's style
 For example, program can have detailed instructions on _how_ the computer should compute a solution. This is known as imperative programming style.
 
 Or it could simply tell the computer _what to do_, and let it handle the steps. This is called declarative programming style.
+
+Some languages require you to use one style or the other.
+
+Others, like JavaScript, allow you to use either style or a mixture of both in your programs.
 
 We'll talk more about programming styles throughout the series.
 
@@ -84,6 +90,8 @@ Now that you know more about how the console works, you can code along with the 
 
 [^1]: In most programming languages, counting starts from zero instead of one.
 
-[^2]: Printing "Hello world" as the first program when learning a new language is a tradition first found in Brian Kernighan's 1972 _A Tutorial Introduction to the Language B_. See [Wikipedia](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) for more about the history and purpose of "Hello world".
+[^2]: If you're using Internet Explorer, you may need to seek help beyond what I can give you.
 
-[^3]: Technically you can write most JavaScript expressions without a semicolon at the end and it will perform Automatic Semicolon Insertion; however, the rules for this are complex so you're better off always using a semicolon for now. When you have more experience you can decide whether or not to use semicolons. There are popular JavaScript style guides for both cases. I prefer to always use semicolons, but in actual projects you should go with the style guide the project you're working on uses.
+[^3]: Printing "Hello world" as the first program when learning a new language is a tradition first found in Brian Kernighan's 1972 _A Tutorial Introduction to the Language B_. See [Wikipedia](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) for more about the history and purpose of "Hello world".
+
+[^4]: Technically you can write most JavaScript expressions without a semicolon at the end and it will perform Automatic Semicolon Insertion; however, the rules for this are complex so you're better off always using a semicolon for now. When you have more experience you can decide whether or not to use semicolons. There are popular JavaScript style guides for both cases. I prefer to always use semicolons, but in actual projects you should go with the style guide the project you're working on uses.

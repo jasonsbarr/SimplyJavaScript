@@ -90,6 +90,8 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Variables, constants, and (im)mutability
 -   Try it yourself: exercises for further learning
 
+#### Interlude: Setting up your development environment
+
 #### 3. Functions: the building blocks of complex programs
 
 -   Boolean logic and conditional execution
