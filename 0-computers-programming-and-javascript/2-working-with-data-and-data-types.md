@@ -272,8 +272,6 @@ _We'll see more about the Math object in a future chapter._
 4. Think of a name and value you might want to use as a binding in a program. Type the name by itself into the console. Use `CTRL+ENTER` to insert a line break and use it in an assignment expression on the second line. Now hit `ENTER`. What happens? Is it what you expected?
 5. What problems do you think mutating a variable's value in a program could cause?
 
-### Notes
-
 [^1]: There is a new `BigInt` data type proposal, but it is not yet part of the JavaScript standard as of November 2019.
 
 [^2]: Booleans are named after the English mathematician, philosopher, and logician [George Boole](https://en.wikipedia.org/wiki/George_Boole). Boole made the first formulation of what is now known as Boolean Algebra, which measures truth and falsity based on conjunction (_and_), dysjunction (_or_), and negation (_not_) and forms the logical basis of modern computing.
