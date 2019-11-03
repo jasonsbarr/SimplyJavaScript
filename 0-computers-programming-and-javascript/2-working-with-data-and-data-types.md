@@ -128,6 +128,23 @@ lines
 
 You can also do some pretty neat things with backtick strings that we'll talk about in a future chapter.
 
+### Types and coercion
+
+Different languages do different things when you try to perform an operation that mixes different data types. For example, if you try to add a number and a string in Python you'll get an error.
+
+JavaScript uses a practice called **type coercion,** where it will try to convert a value's type to make it compatible with the other.
+
+This is a frequent source of bugs in JavaScript programs, and I guarantee you'll find yourself cursing the day Brendan Eich (the original JavaScript language designer) was born one day when you have a weird problem in your code that takes hours to debug due to JavaScript trying to make two disparate types work together implicitly instead of throwing an error like any normal language.[^2]
+
+#### Example 10: Type coercion
+
+```javascript
+const five = 5;
+const fiveString = "five";
+
+five + fiveString; //-> 5five
+```
+
 ### Operator overloading
 
 You can use both the `+` and `*` operators with strings. This is called **operator overloading.**
@@ -144,7 +161,7 @@ You can use both the `+` and `*` operators with strings. This is called **operat
 
 ### Booleans
 
-Booleans are simply `true` or `false` values. It may not seem like much, but they're one of the most useful concepts in programming.[^2]
+Booleans are simply `true` or `false` values. It may not seem like much, but they're one of the most useful concepts in programming.[^3]
 
 It's rare that you'll work with Booleans directly in their raw `true` and `false` form. The most common use for Booleans is to evaluate expressions for **truthiness** or **falsiness** to determine the flow of a program or another conditional operation.
 
@@ -175,7 +192,7 @@ so's_this
 
 ### Naming Conventions
 
-Most of the time in JavaScript code you'll see names written either with camelCase or PascalCase.[^3]
+Most of the time in JavaScript code you'll see names written either with camelCase or PascalCase.[^4]
 
 Sometimes you'll see names written in snake_case, which uses underscores to separate words.
 
@@ -193,7 +210,7 @@ Instead of `x` use `number`. Instead of `str` for a String, use `firstName` or a
 
 An assignment expression simply uses a single equals sign (=) to bind the value on the right side to the name on the left.
 
-It starts with either the keyword `const` for a constant binding or `let` for a variable.[^4]
+It starts with either the keyword `const` for a constant binding or `let` for a variable.[^5]
 
 ### Variables, constants, and (im)mutability
 
@@ -248,7 +265,7 @@ const total = `The total value is $${(subtotal + (subtotal * tax)).toFixed(2)}`;
 
 _The `Number#toFixed` method rounds a float to a significant digit. In this case we round to 2 places to get an even number of cents._
 
-I always use template literals when using values in strings, but you'll also see concatenation with `+`. Template literals weren't officially part of JavaScript until 2015, so when looking at older code it will always use concatenation.[^5]
+I always use template literals when using values in strings, but you'll also see concatenation with `+`. Template literals weren't officially part of JavaScript until 2015, so when looking at older code it will always use concatenation.[^6]
 
 ### Assigning expressions
 
@@ -274,10 +291,12 @@ _We'll see more about the Math object in a future chapter._
 
 [^1]: There is a new `BigInt` data type proposal, but it is not yet part of the JavaScript standard as of November 2019.
 
-[^2]: Booleans are named after the English mathematician, philosopher, and logician [George Boole](https://en.wikipedia.org/wiki/George_Boole). Boole made the first formulation of what is now known as Boolean Algebra, which measures truth and falsity based on conjunction (_and_), dysjunction (_or_), and negation (_not_) and forms the logical basis of modern computing.
+[^2]: Eich performed a feat worthy of Hercules when he designed the entire first draft of the JavaScript language in only 10 days, but I do wish he'd made a different choice here&mdash;as do many, _many_ other developers.
 
-[^3]: Confusingly, sometimes people will refer to UpperCamelCase and lowerCamelCase.
+[^3]: Booleans are named after the English mathematician, philosopher, and logician [George Boole](https://en.wikipedia.org/wiki/George_Boole). Boole made the first formulation of what is now known as Boolean Algebra, which measures truth and falsity based on conjunction (_and_), dysjunction (_or_), and negation (_not_) and forms the logical basis of modern computing.
 
-[^4]: There is also the `var` keyword, which was originally the only way way to bind variables in JavaScript, but you shouldn't use it anymore. You'll see it in the wild, mostly in older code, so you need to know what it is, but it's never necessary or desirable to use it anymore because it has some really annoying quirks I will go into in a later chapter. For now all you need to know is _always_ use `const` when possible, and when it's not use `let`.
+[^4]: Confusingly, sometimes people will refer to UpperCamelCase and lowerCamelCase.
 
-[^5]: From now on I'll use either **ES6+** or the year a feature was added (e.g. **ES2015**) to describe language features added to JavaScript since 2015 when regular updates to the standard began. **ES** stands for **ECMAScript,** named after ECMA, the standardizing body for JavaScript. ECMAScript is the official name of the standardized JavaScript language. We'll discuss that more when we go over the history of JavaScript in a future chapter.
+[^5]: There is also the `var` keyword, which was originally the only way way to bind variables in JavaScript, but you shouldn't use it anymore. You'll see it in the wild, mostly in older code, so you need to know what it is, but it's never necessary or desirable to use it anymore because it has some really annoying quirks I will go into in a later chapter. For now all you need to know is _always_ use `const` when possible, and when it's not use `let`.
+
+[^6]: From now on I'll use either **ES6+** or the year a feature was added (e.g. **ES2015**) to describe language features added to JavaScript since 2015 when regular updates to the standard began. **ES** stands for **ECMAScript,** named after ECMA, the standardizing body for JavaScript. ECMAScript is the official name of the standardized JavaScript language. We'll discuss that more when we go over the history of JavaScript in a future chapter.

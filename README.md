@@ -83,6 +83,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Numbers
     -   Arithmetic operations
     -   Strings
+    -   Coercion
     -   Operator overloading
     -   Booleans
 -   Binding data to names: constants and variables
@@ -98,6 +99,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 #### 3. Functions: the building blocks of complex programs
 
 -   Boolean logic and conditional execution
+    -   Booleans and coercion
     -   Short-circuit evaluation
     -   The conditional expression
     -   Conditional statements
@@ -131,6 +133,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   `Object.seal`
     -   `Object.freeze`
 -   Sets and Maps
+-   Type checking
 -   Imperative control flow: loops
 
 #### Interlude: Programming languages in depth and the history of JavaScript
