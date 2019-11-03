@@ -83,9 +83,10 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Numbers
     -   Arithmetic operations
     -   Strings
-    -   Coercion
+    -   Type coercion
     -   Operator overloading
     -   Booleans
+    -   Null and undefined
 -   Binding data to names: constants and variables
     -   Naming conventions
     -   The difficulty of naming things

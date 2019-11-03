@@ -149,7 +149,7 @@ five + fiveString; //-> 5five
 
 You can use both the `+` and `*` operators with strings. This is called **operator overloading.**
 
-#### Example 10: Overloaded operators
+#### Example 11: Overloaded operators
 
 ```javascript
 "My name is" + " Jason " + "Barr.";
@@ -167,6 +167,12 @@ It's rare that you'll work with Booleans directly in their raw `true` and `false
 
 We'll look more at Boolean logic and expressions in the next chapter.
 
+### Null and undefined
+
+The values `null` and `undefined` are different ways of saying a value has no value.
+
+The difference is that `null` is assigned explicitly, whereas you'll usually see `undefined` when someone declares a binding without initializing it to a value. You'll see examples in the next section.
+
 ## Binding data to names: constants and variables
 
 A binding applies a valid name to a value so the value can be used later in the program.
@@ -175,7 +181,7 @@ Bindings can be either constant, where the binding cannot be changed once assign
 
 Valid names in JavaScript start with a dollar sign ($), underscore (_), or letter and may contain both those characters and numbers.
 
-#### Example 11: valid and invalid names
+#### Example 12: valid and invalid names
 
 ```javascript
 // Valid names
@@ -224,7 +230,7 @@ Complex types require more work to make them immutable. We'll see more about tha
 
 You should use constant, immutable data whenever possible.
 
-#### Example 12: Simple bindings
+#### Example 13: Simple bindings
 
 ```javascript
 // Constant binding expressions
@@ -246,11 +252,23 @@ fullName = "This will cause an error"; //-> TypeError: Assignment to constant va
 
 // Reassigning a variable doesn't affect its earlier use
 console.log(sum); //-> still 21
+
+// If you initialize a variable but don't assign a value, you get undefined
+let notYet;
+
+console.log(notYet); //-> undefined
+
+// If you need to "zero out" a variable you can reassign it to null
+let useOnce = "Some value";
+
+// code that uses useOnce
+
+useOnce = null;
 ```
 
 The `fullName` constant can be defined more cleanly with a backtick String, also known as a **template literal,** which allows you to interpolate values and expressions using `${}`:
 
-#### Example 13: Using a template literal
+#### Example 14: Using a template literal
 
 ```javascript
 // Interpolating variables
@@ -271,7 +289,7 @@ I always use template literals when using values in strings, but you'll also see
 
 You can also assign the value of an expression to a name. This can be any expression, including an arithmetic operation, a function, or any other expression.
 
-#### Example 14: Assigning expressions
+#### Example 15: Assigning expressions
 
 ```javascript
 const sum = 15 + 10; //-> 25
