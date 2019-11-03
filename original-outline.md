@@ -1,12 +1,185 @@
-# Future tutorial outlines
+# The original outline
 
 Ok, so there is _no way_ I can manage writing the behemoth, 51-chapter project I originally outline, and I think I knew that when I was writing the outline.
 
-Here's the rest of it so I have it for future reference if I continue the series beyond the introductory level, which I would very much like to do.
+Here's the rest of the original outline from section II onward so I have it for reference if I continue the series beyond the introductory level, which I would very much like to do.
 
 Some of this, especially materials related to built-in data structures, will need to go into the original now, but that's ok too.
 
-## The rest of the outline
+## The old outline (under radical revision)
+
+### II. The basic elements of programming
+
+#### 6.  Data, types, and binding values
+
+-   Expressions and values
+-   Primitive data types
+    -   Immutable
+    -   Pass by value
+    -   Wrapper Objects and primitive constructors
+        -   String
+        -   Numbers
+        -   BigInt
+        -   Boolean
+        -   Symbol
+-   Composite data types
+    -   Mutable by default
+    -   Pass by reference
+    -   Constructors vs. literal notation
+        -   Array
+        -   Object
+            -   Properties
+            -   Dot and bracket notation
+            -   JSON
+        -   Map (and WeakMap)
+        -   Set (and WeakSet)
+        -   Function
+-   Null and undefined
+-   Bindings: constants and variables
+    -   Assignment expressions
+        -   Declaration vs. assignment
+        -   The heap
+        -   _const_
+        -   _let_
+        -   _var_
+        -   Evaluation order from the inside out
+        -   Destructuring and spreading
+    -   Everything is a(n object) pointer
+    -   Garbage collection
+-   Example: Dog years converter
+
+#### 7.  Operations and functions
+
+-   Operations and expressions
+-   Unary and binary operators
+-   Comparison and logical operators
+    -   Boolean algebra
+    -   Truthiness and falsiness
+    -   Dynamic types and coercion
+    -   Type coercion pitfalls
+-   Bitwise operators
+-   Operators and precedence
+-   Combining expressions
+-   Functions are callable values
+-   Function calls as expressions
+-   Built-in functions
+-   Defining your own functions
+    -   Function declarations vs. function expressions
+    -   Arrow functions
+    -   Functions that take parameters
+    -   Parameters vs. arguments
+    -   Default parameters
+    -   Void functions
+    -   Functions that return a value
+    -   Pure vs. impure functions
+    -   Function signatures, arity, and taking a variable number of parameters (variadic functions)
+    -   Docblocks and function definitions
+-   Function evaluation & the call stack
+-   Functions as data
+    -   Anonymous functions
+    -   Functions as parameters and return objects
+    -   Functions as Object methods
+    -   Functions, Objects, and `this`
+        -   Rules for binding `this`
+        -   Arrow functions and `this`
+        -   `call` and `apply`
+        -   `bind`
+    -   Functions as abstractions for managing complexity
+-   Example: Units converter between SI and Imperial
+
+#### 8.  Scopes and control flow
+
+-   Code blocks
+-   Scope, naming, and environments
+    -   Environments as data structures for managing bindings
+    -   Global scope
+    -   Block scope
+    -   Function scope
+        -   Nested functions
+        -   IIFEs
+        -   Closures preview
+    -   Local assignment and operations
+    -   Lexical environments and the stack
+    -   The scope chain
+    -   Hoisting
+-   Running time and control structures
+-   Conditionals and branching
+    -   `if`, `else if`, `else`
+    -   `switch`
+    -   The conditional (or ternary) operator
+    -   Short-circuit evaluation
+    -   Branching and function returns
+        -   Single point of return
+        -   Early returns and guard clauses
+        -   Conditional execution with enumerables
+-   Recursion
+    -   Linear recursion
+        -   Dividing the problem
+        -   Base cases and recursive calls
+        -   The leap of faith
+        -   Tail call recursion
+    -   Stack frames and state
+    -   Pitfalls
+    -   Example: recursive exponentiation
+-   Iteration
+    -   `while` and `do...while`
+    -   `for`
+    -   `break` and `continue`
+    -   `for...in` (don't use this)
+    -   `for...of`
+    -   `.forEach()`
+    -   Guess and check algorithms
+        -   Exhaustive enumeration (or brute force)
+            -   Linear search
+            -   Example: number guessing game
+        -   Divide and conquer
+            -   Binary search
+            -   Example: refactored number guessing game
+    -   Iteration vs. recursion
+        -   State
+        -   Memory usage
+        -   Performance
+        -   Mutability and assignment
+    -   Example: iterative exponentiation
+-   This is now a Turing complete subset of JavaScript
+-   Errors and error handling
+    -   `throw`
+    -   `try`/`catch`/`finally`
+-   Basic debugging and testing
+    -   Using the Console
+    -   Using a debugger
+    -   Example: debugging a square root algorithm
+    -   The Assert API
+    -   Build a simple testing library
+    -   Using a 3rd party testing library
+-   Example: Rock, paper, scissors game (Stretch: add lizard, Spock)
+
+#### 9.  Building applications: program organization and design
+
+-   Why design programs?
+-   Declarative vs. imperative programming
+-   Functions and abstraction
+    -   Decomposition
+    -   Extracting repeated code
+    -   "Wishful thinking"
+-   The design process
+    -   Clarify the problem. Make sure you understand _why_ the problem needs to be solved, what _results_ a solution would achieve for you, and the _benefits_ of getting those results. Answer the question _what is the purpose of this program?_
+    -   Break the problem into smaller, more easily solvable parts (sub-problems). Answer the question _what things need to happen to handle each salient aspect of the overall problem?_
+    -   Define the data that will be used to represent the information relevant to one of the sub-problems. Answer the question _how do I accurately model the problem so that the output of the function is an accurate solution to the real-world problem?_
+    -   Calculate the outputs you should expect from your function based on various example inputs, to make sure you understand what kind of tranformation you need to apply to inputs in the actual program to get the desired output. Answer the question _how do I need my function to manipulate and process its input data to compute the correct output to solve this part of the overall problem?_
+    -   Stub out your function signature to state what kind of data they will both consume as input and produce as output, and then map the data transformation to fulfillment of the function's purpose. Answer the question _how will making the correct computation here contribute to the whole solution?_
+    -   Translate your definition(s) into a broad outline of how the parts of the program will each solve the problem it's designed to solve. In other words, describe the steps of your algorithm(s). Answer the question _how will this compute the necessary values to solve this particular part of the problem?_
+    -   Fill in the gaps with the first iteration of your program's code. Answer the question _how do I use the programming language and environment to correctly implement the steps of the algorithm?_
+    -   Test the function with example inputs to make sure it computes as it should, without unexpected mistakes. If it turns out there are mistakes, review and refine the previous steps and then make adjustments to the code. Continue iterating this process until the function passes all the relevant tests. Answer the question _does this work in all possible situations relevant to the problem itself?_
+    -   When you're sure the function is doing as it should, add any necessary relevant information to complement the function signature and definition. That way future users, as well as developers who test and maintain your code, will have documentation to understand the what, how, and why of the function.
+    -   Repeat this process until you've created solutions for each sub-problem. Then put them all together so your functions compose a solution to the overall problem.
+-   The importance of writing clear, readable code
+-   How to organize your code well
+-   Using third-party libraries
+-   A brief intro to test-driven development
+-   Example: A trivia game that runs in the console/REPL (Stretch: add a countdown timer, implement penalties for wrong answers, make it multiplayer)
+
+#### Project: Battleship using TDD
 
 ### III. Programming with Objects and other simple data structures
 
