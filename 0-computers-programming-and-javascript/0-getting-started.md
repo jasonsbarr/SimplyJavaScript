@@ -143,7 +143,7 @@ Abstraction is a powerful tool for managing complexity. Think about it: if you k
 
 You don't need to know how the fuel injection system, internal combustion, or the computers that make your car run work; you can just push the pedal and go.
 
-Abstraction and decomposition are powerful tools for managing complexity, which is central to the task of programming. Programming is all about managing complexity in order to create change.<sup>[[5](#notes)]</sup>
+Abstraction and decomposition are powerful tools for managing complexity, which is central to the task of programming. Programming is all about managing complexity in order to create change.[^5]
 
 [^1]: There are some who would say "computing" is just a mathematical term. Those people are silly and should be avoided whenever possible. Or, at the very least, they need to expand their definition of "mathematical."
 
