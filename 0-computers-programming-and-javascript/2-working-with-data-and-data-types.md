@@ -6,6 +6,8 @@ Data is a symbol or collection of symbols that are given meaning by specific act
 
 This is a bit of a philosophical definition, but it's necessary in this case: in order to use data it must be given meaning in some way so a program (or, indeed, a human) knows how to use it.
 
+## Data types
+
 Programming languages classify data according to **data types.** A data type tells the computer how to work with a bit of data under the hood.
 
 For example, data types make sure it doesn't try to work with words as if they were numbers.
@@ -14,7 +16,9 @@ For example, data types make sure it doesn't try to work with words as if they w
 
 JavaScript has several built-in data types. We'll start with 3 of them: Numbers, Strings, and Booleans.
 
-If you did the exercises above, you've already seen the 3 types in action. Now I'll explain them in greater detail.
+These are known as **primitive data types,** which are the basic building blocks of data in JavaScript. Later we'll also look at complex data types.
+
+If you did the exercises for the previous chapter, you've already seen the 3 types in action. Now I'll explain them in greater detail.
 
 If you didn't, go do them now and then come back here.
 
@@ -126,13 +130,9 @@ You can use both the `+` and `*` operators with strings. This is called **operat
 
 Booleans are simply `true` or `false` values. It may not seem like much, but they're one of the most useful concepts in programming.[^2]
 
-It's rare that you'll work with Booleans directly in their raw `true` and `false` form. The most common use for Booleans is to evaluate expressions for **truthiness** or **falsiness** to determine the control flow of a program.
+It's rare that you'll work with Booleans directly in their raw `true` and `false` form. The most common use for Booleans is to evaluate expressions for **truthiness** or **falsiness** to determine the flow of a program or another conditional operation.
 
-**Control flow** is the order in which the statements of a program are executed.
-
-Your control statements tell the interpreter how to decide which parts of a program to run and how many times to run them. This allows you to create programs that can perform any kind of computation that is possible for a computer to make.
-
-We'll look more at Boolean expressions and control flow in the next chapter.
+We'll look more at Boolean logic and expressions in the next chapter.
 
 ## Binding data to names: constants and variables
 
@@ -179,16 +179,40 @@ An assignment expression simply uses a single equals sign (=) to bind the value 
 
 It starts with either the keyword `const` for a constant binding or `let` for a variable.[^4]
 
+### Variables, constants, and (im)mutability
+
+I use `const` almost exclusively for bindings in my own programs because having bindings that don't change makes it so that, at least with simple data types, you can always know what value a name refers to without having to read through the whole program.
+
+Programs that mutate a binding's value are more difficult to read and understand than those that use constant values.
+
+Data bindings that can't be changed are **immutable.** Primitive data types are immutable by definition, which makes sense because, for example, the numbers 8 and 12 will always be different numbers no matter what names they are bound to.
+
+Complex types require more work to make them immutable. We'll see more about that in chapter 4.
+
+You should use constant, immutable data whenever possible.
+
 #### Example 12: Simple bindings
 
 ```javascript
-// Constant binding expression
+// Constant binding expressions
 const firstName = "Jason";
 const lastName = "Barr";
 const fullName = firstName + " " + lastName;
+
+// Variable binding expression;
+let number = 3;
+
+// You can use previous bindings in a current one
+let sum = number + 18; //-> 21
+
+// Variable bindings can be reassigned
+number = 10;
+
+// Reassigning a variable doesn't affect its earlier use
+console.log(sum); //-> still 21
 ```
 
-The last of those can be done more cleanly with a backtick String, also known as a **template literal,** which allows you to interpolate values and expressions using `${}`:
+The `fullName` constant can be defined more cleanly with a backtick String, also known as a **template literal,** which allows you to interpolate values and expressions using `${}`:
 
 #### Example 13: Using a template literal
 
@@ -208,6 +232,14 @@ const intPi = parseInt(Math.PI) //-> 3
 const value = 5 + (2.9 * 4.2) / 3.14; //-> 8.878980891719745
 ```
 
+## Try it yourself: exercises for further learning
+
+1. Assign a numeric value to a constant `number` that uses the most complicated, gnarly arithmetic operation you can think of. See if you can use all 5 operators!
+2. Assign your first and last names to two separate constants. Don't use a space in either binding. Use them to assign your full name to its own constant using `+` to join them (don't forget the space!).
+3. Now assign them using a template literal. Don't forget: you can't re-assign values to a constant!
+4. Think of a name and value you might want to use as a binding in a program. Type the name by itself into the console. Use `CTRL+ENTER` to insert a line break and use it in an assignment expression on the second line. Now hit `ENTER`. What happens? Is it what you expected?
+5. What problems do you think mutating a variable's value in a program could cause?
+
 ### Notes
 
 [^1]: There is a new `BigInt` data type proposal, but it is not yet part of the JavaScript standard as of November 2019.
@@ -216,6 +248,6 @@ const value = 5 + (2.9 * 4.2) / 3.14; //-> 8.878980891719745
 
 [^3]: Confusingly, sometimes people will refer to UpperCamelCase and lowerCamelCase.
 
-[^4]: There is also the `var` keyword, which was the original way of binding variables in JavaScript, but you shouldn't use it anymore. You'll see it in the wild, mostly in older code, so you need to know what it is, but it's never necessary or desirable to use it anymore because it has some really annoying quirks I will go into in a later chapter. For now all you need to know is _always_ use `const` when possible, and when it's not use `let`.
+[^4]: There is also the `var` keyword, which was originally the only way way to bind variables in JavaScript, but you shouldn't use it anymore. You'll see it in the wild, mostly in older code, so you need to know what it is, but it's never necessary or desirable to use it anymore because it has some really annoying quirks I will go into in a later chapter. For now all you need to know is _always_ use `const` when possible, and when it's not use `let`.
 
 [^5]: From now on I'll use either **ES6+** or the year a feature was added (e.g. **ES2015**) to describe language features added to JavaScript since 2015 when regular updates to the standard began. **ES** stands for **ECMAScript,** named after ECMA, the standardizing body for JavaScript. ECMAScript is the official name of the standardized JavaScript language. We'll discuss that more when we go over the history of JavaScript in a future chapter.

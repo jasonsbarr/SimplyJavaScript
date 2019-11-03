@@ -1,8 +1,8 @@
 # Understanding and writing JavaScript programs with simple data
 
-In article 0,[^1] [Getting started with computing, computers, and computer science](./0-getting-started.md), I mentioned programming a few times. In this article we'll write our first JavaScript programs and explore what programs are in a little more depth.
+In the previous article,[^1] [Getting started with computing, computers, and computer science](./0-getting-started.md), I mentioned programming a few times. In this article we'll write our first JavaScript programs and explore what programs are in a little more depth.
 
-## Hello, console: our first JavaScript program
+## Hello, world: our first JavaScript program
 
 To use most programming languages you have to download an environment to run programs. Sometimes you also need to download a specialized text editor to write programs.
 
@@ -42,7 +42,9 @@ The console should repeat `"Hello, world!"` back to you.[^2]
 
 That's right, your first JavaScript program is simply a sentence in quotation marks!
 
-### How it works
+This is actually a complete, valid JavaScript program, but it's not terribly useful. We'll write much better ones by the time we're through this series.
+
+### How the interpreter works to run your first program
 
 The console will simply evaluate any valid JavaScript value that you type into it and **return** it back to you as itself.
 
@@ -54,6 +56,20 @@ Any value that's valid to the JavaScript interpreter can be used as an expressio
 
 You should always end expressions with a semicolon (;).[^3]
 
+## What is a program?
+
+Now that you've written your first program let's talk more about what a program _is_.
+
+At its most basic level, a **program** is a piece of written language that tells the computer to perform a computation.
+
+How exactly a program is written depends on the language, the programmer's style, and in some cases the machine the program is written for.
+
+For example, program can have detailed instructions on _how_ the computer should compute a solution. This is known as imperative programming style.
+
+Or it could simply tell the computer _what to do_, and let it handle the steps. This is called declarative programming style.
+
+We'll talk more about programming styles throughout the series.
+
 ### Try it yourself: exercises for further learning
 
 1. Type additional words and sentences into the console. Make sure to enclose them in quotation marks! Try them with single quotes ('), double quotes ("), and backticks (`).
@@ -63,20 +79,6 @@ You should always end expressions with a semicolon (;).[^3]
 5. Type a word _without_ quotation marks. What happens?
 
 Now that you know more about how the console works, you can code along with the examples so you get a better sense of how to type in code.
-
-## What is a program?
-
-Now that you've written your first program and explored the console a bit, let's talk more about what a program _is_.
-
-At its most basic level, a **program** is a piece of written language that tells the computer to perform a computation.
-
-How exactly a program is written depends on the language, the programmer's style, and in some cases the machine the program is written for.
-
-For example, program can have detailed instructions on _how_ the computer should compute a solution (imperative programming style).
-
-Or it could simply tell the computer _what to do_, and let it handle the steps (declarative programming style).
-
-We'll talk more about imperative vs. declarative programming styles throughout the series.
 
 ### Notes
 
