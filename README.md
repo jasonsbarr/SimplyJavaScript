@@ -69,35 +69,156 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 
 #### 1. Understanding and writing JavaScript programs
 
--   Hello, console: our first JavaScript program
+-   Hello, world: our first JavaScript program
     -   How to access the JavaScript console
     -   Writing your first JavaScript program
-    -   How the first program works
-    -   Try it yourself: exercises for further learning
+    -   How the interpreter works to run your first program
 -   What is a program?
--   Simple data types and operations
+    -   Try it yourself: exercises for further learning
+
+#### 2. Working with data and types
+
+-   Data types
+-   Built-in JavaScript data types
     -   Numbers and arithmetic
     -   Strings
     -   Booleans
 -   Binding data to names: constants and variables
+    -   Naming conventions
+    -   The difficulty of naming things
+    -   Assignment expressions
+    -   Variables, constants, and (im)mutability
+-   Try it yourself: exercises for further learning
 
-#### 2. Data, Types, and binding data
+#### 3. Functions: the building blocks of complex programs
 
-#### 3. Functions and control flow
-
+-   Boolean logic and conditional execution
+    -   Short-circuit evaluation
+    -   The conditional expression
+    -   Conditional statements
+    -   Control flow vs. logical flow
 -   Defining functions
--   Boolean expressions
--   Type coercion
+    -   The new way: arrow function expressions
+    -   The old way: the `function` keyword
+-   Parameters and arguments
+-   Functions and returning values
+    -   Void functions
+    -   The `return` statement
+-   Pure vs. impure functions
+-   The `Function` data type
 
-#### 3. Simple algorithms and working with data
+#### 4. Complex data types and iteration
+
+-   Primitive vs. complex data types
+-   Primitives as objects
+    -   String properties and methods
+    -   Number properties and methods
+-   Arrays
+    -   Creating arrays
+    -   Array properties and methods
+    -   Destructuring and spreading Arrays
+-   Iteration with Array methods
+-   Objects
+    -   Properties and methods
+    -   Iterating over Objects
+-   Complex data types and (im)mutability
+    -   Bindings and `const`
+    -   `Object.seal`
+    -   `Object.freeze`
+-   Sets and Maps
+-   Imperative control flow: loops
+
+#### Interlude: Programming languages in depth and the history of JavaScript
+
+-   Programming languages are languages
+    -   Digital representation of human language
+    -   Elements of programming languages
+        -   Primitives
+        -   Syntax
+        -   Static semantics
+        -   Semantics
+-   Programs and programming languages
+    -   Low-level and high-level languages
+        -   Machine code and assembly
+        -   Machine-independent languages and compiling (Grace Hopper and A-0)
+        -   The first high-level languages: FORTRAN, LISP, and COBOL
+        -   Modern programming languages
+    -   Compiled vs. interpreted
+    -   Dynamically vs. statically typed
+    -   Compile time and runtime
+-   A _very brief_ history of JavaScript
+    -   Early history and influences
+    -   ECMAScript versions 3, 4, and 5
+    -   NodeJS
+    -   ECMAScript 6 and beyond
+-   Overview of JavaScript's basic syntax
+    -   Identifiers
+    -   Statements and expressions
+    -   Syntactic ambiguities
+    -   Strict mode
+
+### II. Abstracting with functions
+
+#### ##. Scopes and closures
+
+#### ##. Higher-order functions
+
+#### ##. Recursion
+
+#### ##. Composition
+
+#### ##. Lists and streams
+
+#### Interlude: Declarative vs. imperative programming styles
+
+### III. Abstracting with data
+
+#### ##. Simple vs. compound data
+
+#### ##. Strings and string operations
+
+#### ##. Numbers, math, and dates
+
+#### ##. Arrays and iterators
+
+-   `Array#map`
+-   `Array#filter`
+-   `Array#reduce`
+-   `Array#find`, `#findIndex`, `#some`, and `#every`
+
+#### ##. Objects and dictionaries
+
+#### ##. Sequential abstractions
+
+#### ##. Hierarchical abstractions
+
+#### Interlude: Program decomposition and state management
+
+### IV. Abstracting with state
+
+#### ##. Program state and mutability
+
+#### ##. Objects with prototypes
+
+#### ##. Classes and inheritance
+
+#### ##. Design patterns
+
+#### ##. Declarative patterns with functional OOP
+
+#### ##. Sorting and searching
+
+#### ##. Graphs and dynamic programming
+
+#### Interlude: Algorithms and analysis
 
 -   Computation and algorithms
     -   Computation: a rational process that transforms data into results
     -   Algorithm: a set of instructions, like a recipe, that tells a computer (mechanical or otherwise) how to perform a computation
 -   3 parts of an algorithm
     1.  Set of instructions
-    2.  Flow of control
-    3.  Terminal condition
+    2.  Program control
+    3.  A terminal condition
 -   Data, processing, and input/output
     -   Data is a symbol or symbols given meaning by specific acts of interpretation (information is data plus interpreted context)
     -   Computation turns data into information by placing it in an interpretive context meaningful to humans
@@ -111,210 +232,22 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Managing machine and program state is one of the most crucial (and difficult!) tasks a programmer must perform
 -   The program gets data as input, performs operations on the data that move it through various states in the process, and outputs the resulting new information
 
-#### 4. Programming languages: what they are and how they work
+### V. Engineering applications
 
--   Programming languages are languages
-    -   Digital representation of human language
-    -   Elements of programming languages
-        -   Primitives
-        -   Syntax
-        -   Static semantics
-        -   Semantics
--   Programs and programming languages
-    -   Low level and high level languages
-        -   Machine code and assembly
-        -   Machine-independent languages and compiling (Grace Hopper and A-0)
-        -   The first high-level languages: FORTRAN, LISP, and COBOL
-        -   Modern programming languages
-    -   Compiled vs. interpreted
-    -   Dynamically vs. statically typed
-    -   Compile time and runtime
+#### ##. Designing programs
 
-#### 5. The JavaScript language in greater depth
+#### ##. Asynchronous basics
 
--   A _very brief_ history of JavaScript
-    -   Early history and influences
-    -   ECMAScript versions 3, 4, and 5
-    -   NodeJS
-    -   ECMAScript 6 and beyond
--   Overview of JavaScript's basic syntax
-    -   Identifiers
-    -   Statements and expressions
-    -   Syntactic ambiguities
-    -   Strict mode
--   Running JavaScript programs interactively
-    -   Browser console
-    -   Node REPL
+#### ##. Events and reactivity
 
-### II. The basic elements of programming
+#### ##. Programming the browser: the Document Object Model
 
-#### 6.  Data, types, and binding values
+#### ##. Programming the server: Understanding Node.js
 
--   Expressions and values
--   Primitive data types
-    -   Immutable
-    -   Pass by value
-    -   Wrapper Objects and primitive constructors
-        -   String
-        -   Numbers
-        -   BigInt
-        -   Boolean
-        -   Symbol
--   Composite data types
-    -   Mutable by default
-    -   Pass by reference
-    -   Constructors vs. literal notation
-        -   Array
-        -   Object
-            -   Properties
-            -   Dot and bracket notation
-            -   JSON
-        -   Map (and WeakMap)
-        -   Set (and WeakSet)
-        -   Function
--   Null and undefined
--   Bindings: constants and variables
-    -   Assignment expressions
-        -   Declaration vs. assignment
-        -   The heap
-        -   _const_
-        -   _let_
-        -   _var_
-        -   Evaluation order from the inside out
-        -   Destructuring and spreading
-    -   Everything is a(n object) pointer
-    -   Garbage collection
--   Example: Dog years converter
+#### ##. HTTP requests and working with external data sources
 
-#### 7.  Operations and functions
+#### ##. Full-stack development: Managing state with reactive UI
 
--   Operations and expressions
--   Unary and binary operators
--   Comparison and logical operators
-    -   Boolean algebra
-    -   Truthiness and falsiness
-    -   Dynamic types and coercion
-    -   Type coercion pitfalls
--   Bitwise operators
--   Operators and precedence
--   Combining expressions
--   Functions are callable values
--   Function calls as expressions
--   Built-in functions
--   Defining your own functions
-    -   Function declarations vs. function expressions
-    -   Arrow functions
-    -   Functions that take parameters
-    -   Parameters vs. arguments
-    -   Default parameters
-    -   Void functions
-    -   Functions that return a value
-    -   Pure vs. impure functions
-    -   Function signatures, arity, and taking a variable number of parameters (variadic functions)
-    -   Docblocks and function definitions
--   Function evaluation & the call stack
--   Functions as data
-    -   Anonymous functions
-    -   Functions as parameters and return objects
-    -   Functions as Object methods
-    -   Functions, Objects, and `this`
-        -   Rules for binding `this`
-        -   Arrow functions and `this`
-        -   `call` and `apply`
-        -   `bind`
-    -   Functions as abstractions for managing complexity
--   Example: Units converter between SI and Imperial
+#### ##. Full-stack development: API development with Node and Express
 
-#### 8.  Scopes and control flow
-
--   Code blocks
--   Scope, naming, and environments
-    -   Environments as data structures for managing bindings
-    -   Global scope
-    -   Block scope
-    -   Function scope
-        -   Nested functions
-        -   IIFEs
-        -   Closures preview
-    -   Local assignment and operations
-    -   Lexical environments and the stack
-    -   The scope chain
-    -   Hoisting
--   Running time and control structures
--   Conditionals and branching
-    -   `if`, `else if`, `else`
-    -   `switch`
-    -   The conditional (or ternary) operator
-    -   Short-circuit evaluation
-    -   Branching and function returns
-        -   Single point of return
-        -   Early returns and guard clauses
-        -   Conditional execution with enumerables
--   Recursion
-    -   Linear recursion
-        -   Dividing the problem
-        -   Base cases and recursive calls
-        -   The leap of faith
-        -   Tail call recursion
-    -   Stack frames and state
-    -   Pitfalls
-    -   Example: recursive exponentiation
--   Iteration
-    -   `while` and `do...while`
-    -   `for`
-    -   `break` and `continue`
-    -   `for...in` (don't use this)
-    -   `for...of`
-    -   `.forEach()`
-    -   Guess and check algorithms
-        -   Exhaustive enumeration (or brute force)
-            -   Linear search
-            -   Example: number guessing game
-        -   Divide and conquer
-            -   Binary search
-            -   Example: refactored number guessing game
-    -   Iteration vs. recursion
-        -   State
-        -   Memory usage
-        -   Performance
-        -   Mutability and assignment
-    -   Example: iterative exponentiation
--   This is now a Turing complete subset of JavaScript
--   Errors and error handling
-    -   `throw`
-    -   `try`/`catch`/`finally`
--   Basic debugging and testing
-    -   Using the Console
-    -   Using a debugger
-    -   Example: debugging a square root algorithm
-    -   The Assert API
-    -   Build a simple testing library
-    -   Using a 3rd party testing library
--   Example: Rock, paper, scissors game (Stretch: add lizard, Spock)
-
-#### 9.  Building applications: program organization and design
-
--   Why design programs?
--   Declarative vs. imperative programming
--   Functions and abstraction
-    -   Decomposition
-    -   Extracting repeated code
-    -   "Wishful thinking"
--   The design process
-    -   Clarify the problem. Make sure you understand _why_ the problem needs to be solved, what _results_ a solution would achieve for you, and the _benefits_ of getting those results. Answer the question _what is the purpose of this program?_
-    -   Break the problem into smaller, more easily solvable parts (sub-problems). Answer the question _what things need to happen to handle each salient aspect of the overall problem?_
-    -   Define the data that will be used to represent the information relevant to one of the sub-problems. Answer the question _how do I accurately model the problem so that the output of the function is an accurate solution to the real-world problem?_
-    -   Calculate the outputs you should expect from your function based on various example inputs, to make sure you understand what kind of tranformation you need to apply to inputs in the actual program to get the desired output. Answer the question _how do I need my function to manipulate and process its input data to compute the correct output to solve this part of the overall problem?_
-    -   Stub out your function signature to state what kind of data they will both consume as input and produce as output, and then map the data transformation to fulfillment of the function's purpose. Answer the question _how will making the correct computation here contribute to the whole solution?_
-    -   Translate your definition(s) into a broad outline of how the parts of the program will each solve the problem it's designed to solve. In other words, describe the steps of your algorithm(s). Answer the question _how will this compute the necessary values to solve this particular part of the problem?_
-    -   Fill in the gaps with the first iteration of your program's code. Answer the question _how do I use the programming language and environment to correctly implement the steps of the algorithm?_
-    -   Test the function with example inputs to make sure it computes as it should, without unexpected mistakes. If it turns out there are mistakes, review and refine the previous steps and then make adjustments to the code. Continue iterating this process until the function passes all the relevant tests. Answer the question _does this work in all possible situations relevant to the problem itself?_
-    -   When you're sure the function is doing as it should, add any necessary relevant information to complement the function signature and definition. That way future users, as well as developers who test and maintain your code, will have documentation to understand the what, how, and why of the function.
-    -   Repeat this process until you've created solutions for each sub-problem. Then put them all together so your functions compose a solution to the overall problem.
--   The importance of writing clear, readable code
--   How to organize your code well
--   Using third-party libraries
--   A brief intro to test-driven development
--   Example: A trivia game that runs in the console/REPL (Stretch: add a countdown timer, implement penalties for wrong answers, make it multiplayer)
-
-#### Project: Battleship using TDD
+#### ##. Putting it all together
