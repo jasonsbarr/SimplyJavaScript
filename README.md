@@ -80,14 +80,17 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 
 -   Data types
 -   Built-in JavaScript data types
-    -   Numbers and arithmetic
+    -   Numbers
+    -   Arithmetic operations
     -   Strings
+    -   Operator overloading
     -   Booleans
 -   Binding data to names: constants and variables
     -   Naming conventions
     -   The difficulty of naming things
     -   Assignment expressions
     -   Variables, constants, and (im)mutability
+    -   Assigning expressions
 -   Try it yourself: exercises for further learning
 
 #### Interlude: Setting up your development environment

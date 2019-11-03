@@ -8,9 +8,9 @@ This is a bit of a philosophical definition, but it's necessary in this case: in
 
 ## Data types
 
-Programming languages classify data according to **data types.** A data type tells the computer how to work with a bit of data under the hood.
+Programming languages classify data according to **data types.** A data type tells the computer what kind of data you're giving it, so it knows how to work with it.
 
-For example, data types make sure it doesn't try to work with words as if they were numbers.
+That way it doesn't try to do something like work with words as if they were numbers.
 
 ## Built-in JavaScript data types
 
@@ -18,11 +18,11 @@ JavaScript has several built-in data types. We'll start with 3 of them: Numbers,
 
 These are known as **primitive data types,** which are the basic building blocks of data in JavaScript. Later we'll also look at complex data types.
 
-If you did the exercises for the previous chapter, you've already seen the 3 types in action. Now I'll explain them in greater detail.
+If you did the exercises for the previous chapter, you've already seen the 3 types in action.
 
-If you didn't, go do them now and then come back here.
+If you didn't, go do them now so you'll understand this section better.
 
-### Numbers and arithmetic
+### Numbers
 
 Unlike other languages, JavaScript uses one **Number** type for both integers and floating-point numbers.[^1]
 
@@ -42,6 +42,10 @@ _Follow along by typing the examples into your console_
 // Should be 0.9
 0.3 * 3; //-> 0.8999999999999999
 ```
+
+You'll become intimately familiar with this quirk as you get more programming experience.
+
+### Arithmetic operations
 
 The most basic numeric operation is arithmetic. You can use arithmetic operators in JavaScript just like you'd expect:
 
@@ -75,11 +79,21 @@ A common way to use the `%` operator is to check if a number is divisible by ano
 10 % 2; //-> 0, so it's even
 ```
 
+The last arithmetic operator is `**`, for powers and exponents. The first number is the base; the second is the exponent.
+
+#### Example 5: Calculating powers
+
+```javascript
+5 ** 2; //-> 25
+7.2 ** 5; //-> 19349.176320000002
+// 0000002 at the end is caused by a floating-point rounding error
+```
+
 ### Strings
 
 A String is simply text data. Strings need to be enclosed in quotes. You can use double-quotes:
 
-#### Examples 5-7: JavaScript strings
+#### Examples 6-8: JavaScript strings
 
 ```javascript
 "This is a string"
@@ -99,7 +113,7 @@ or backticks:
 
 Strings defined with backticks can span multiple lines:
 
-#### Example 8: Multi-line strings
+#### Example 9: Multi-line strings
 
 _Use `CTRL+ENTER` to enter a line break without making the interpreter try to evaluate an incomplete expression_
 
@@ -112,11 +126,13 @@ lines
 `;
 ```
 
-You can also do some pretty neat things with backtick strings that we'll talk about in future chapters.
+You can also do some pretty neat things with backtick strings that we'll talk about in a future chapter.
+
+### Operator overloading
 
 You can use both the `+` and `*` operators with strings. This is called **operator overloading.**
 
-#### Example 9: Overloaded operators
+#### Example 10: Overloaded operators
 
 ```javascript
 "My name is" + " Jason " + "Barr.";
@@ -163,7 +179,7 @@ Most of the time in JavaScript code you'll see names written either with camelCa
 
 Sometimes you'll see names written in snake_case, which uses underscores to separate words.
 
-Still other times you'll see names written with ALL_CAPS_SNAKE_CASE, usually by old-school C programmers to denote constant values. As you will soon see, I recommend using constant values exclusively whenever possible, so I don't use any special convention for constants vs. variables.
+Still other times you'll see names written with ALL_CAPS_SNAKE_CASE, usually by old-school C programmers to denote constant values. As you will soon see, I recommend using constant values exclusively whenever possible, so I don't use any special convention for constants vs. variables. You can generally assume any binding you see in one of my programs will be a constant.
 
 ### The difficulty of naming things
 
@@ -208,6 +224,9 @@ let sum = number + 18; //-> 21
 // Variable bindings can be reassigned
 number = 10;
 
+// Constants can't
+fullName = "This will cause an error"; //-> TypeError: Assignment to constant variable.
+
 // Reassigning a variable doesn't affect its earlier use
 console.log(sum); //-> still 21
 ```
@@ -217,10 +236,21 @@ The `fullName` constant can be defined more cleanly with a backtick String, also
 #### Example 13: Using a template literal
 
 ```javascript
-const fullName = `${firstName} ${lastName}`;
+// Interpolating variables
+const fullName2 = `${firstName} ${lastName}`;
+
+// Interpolating an expression
+const subtotal = 13.99;
+const tax = 0.07;
+const total = `The total value is $${(subtotal + (subtotal * tax)).toFixed(2)}`;
+//-> "The total value is $14.97
 ```
 
-I always use template literals when using values in strings, but you'll see interpolation with `+` especially in older code, as template literals weren't officially part of JavaScript until 2015.[^5]
+_The `Number#toFixed` method rounds a float to a significant digit. In this case we round to 2 places to get an even number of cents._
+
+I always use template literals when using values in strings, but you'll also see concatenation with `+`. Template literals weren't officially part of JavaScript until 2015, so when looking at older code it will always use concatenation.[^5]
+
+### Assigning expressions
 
 You can also assign the value of an expression to a name. This can be any expression, including an arithmetic operation, a function, or any other expression.
 
@@ -231,6 +261,8 @@ const sum = 15 + 10; //-> 25
 const intPi = parseInt(Math.PI) //-> 3
 const value = 5 + (2.9 * 4.2) / 3.14; //-> 8.878980891719745
 ```
+
+_We'll see more about the Math object in a future chapter._
 
 ## Try it yourself: exercises for further learning
 
