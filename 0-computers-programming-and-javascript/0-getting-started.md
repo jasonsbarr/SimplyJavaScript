@@ -85,6 +85,7 @@ const add = (x, y) => x + y;
 const square = x => x * x;
 
 // Putting it all together
+// We'll cover the reduce function in chapter 4
 const sumOfSquares = numbers.reduce((sum, number) =>
   add(sum, square(number)), 0); // -> 385
 ```
