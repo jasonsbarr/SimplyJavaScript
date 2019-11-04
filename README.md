@@ -109,7 +109,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   The new way: arrow function expressions
     -   The old way: the `function` keyword
 -   Parameters and arguments
--   Functions and returning values
+-   Returning values
     -   Void functions
     -   The `return` statement
 -   Pure vs. impure functions
@@ -122,18 +122,21 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   String properties and methods
     -   Number properties and methods
 -   Arrays
-    -   Creating arrays
+    -   Creating Arrays
     -   Array properties and methods
     -   Destructuring and spreading Arrays
 -   Iteration with Array methods
 -   Objects
+    -   Creating Objects
     -   Properties and methods
-    -   Iterating over Objects
+    -   Destructuring and spreading Objects
+-   Iterating over Objects
 -   Complex data types and (im)mutability
     -   Bindings and `const`
     -   `Object.seal`
     -   `Object.freeze`
--   Sets and Maps
+-   Sets
+-   Maps
 -   Type checking
 -   Imperative control flow: loops
 
