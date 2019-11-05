@@ -95,9 +95,7 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Assigning expressions
 -   Try it yourself: exercises for further learning
 
-#### Interlude: Setting up your development environment
-
-#### 3. Functions: the building blocks of complex programs
+#### 3. Program control with Boolean expressions
 
 -   Boolean logic and conditional execution
     -   Boolean expressions
@@ -108,6 +106,11 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 -   Control flow: imperative style
     -   Conditional statements
 -   Control flow vs. logical flow
+
+#### Interlude: Setting up your development environment
+
+#### 4. Functions: the building blocks of complex programs
+
 -   Function basics
 -   How functions work under the hood
 -   Defining your own functions

@@ -2,22 +2,6 @@
 
 Functions are one of the two most important things for a JavaScript programmer to understand.[^1]
 
-## Boolean logic and conditional execution
-
-### Boolean expressions
-
-### Booleans and type coercion
-
-## Control logic: declarative style
-
-### Short-circuit evaluation
-
-## Control flow: imperative style
-
-### Conditional statements
-
-## Control flow vs. logical flow
-
 ## Function basics
 
 ### How functions work under the hood
