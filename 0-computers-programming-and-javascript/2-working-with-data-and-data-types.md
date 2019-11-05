@@ -4,7 +4,7 @@ The basic task of any program is to do some kind of transformation with **data.*
 
 Data is a symbol or collection of symbols that are given meaning by specific acts of interpretation.
 
-This is a bit of a philosophical definition, but it's necessary in this case: in order to use data it must be given meaning in some way so a program (or, indeed, a human) knows how to use it.
+This is a bit of a philosophical definition, but it's necessary in this case: in order to use data you must give it some kind of meaning so a program (or, indeed, a human) knows how to use it.
 
 ## Data types
 
