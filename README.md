@@ -95,9 +95,10 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
     -   Assigning expressions
 -   Try it yourself: exercises for further learning
 
-#### 3. Program control with Boolean expressions
+#### 3. Program control and Boolean expressions
 
 -   Boolean logic and conditional execution
+-   Branching algorithms
     -   Boolean expressions
     -   Booleans and type coercion
 -   Control logic: declarative style
