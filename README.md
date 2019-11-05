@@ -100,18 +100,25 @@ Since I'm in the _very_ early stages of developing this series, this is subject 
 #### 3. Functions: the building blocks of complex programs
 
 -   Boolean logic and conditional execution
-    -   Booleans and coercion
+    -   Boolean expressions
+    -   Booleans and type coercion
+-   Control logic: declarative style
     -   Short-circuit evaluation
     -   The conditional expression
+-   Control flow: imperative style
     -   Conditional statements
-    -   Control flow vs. logical flow
--   Defining functions
+-   Control flow vs. logical flow
+-   Function basics
+-   How functions work under the hood
+-   Defining your own functions
     -   The new way: arrow function expressions
     -   The old way: the `function` keyword
 -   Parameters and arguments
+    -   Default argument values
 -   Returning values
     -   Void functions
     -   The `return` statement
+    -   Arrow functions and implicit return
 -   Pure vs. impure functions
 -   The `Function` data type
 
